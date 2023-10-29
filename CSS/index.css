@@ -361,43 +361,6 @@ body {
     
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
 /* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
-
-.div-003 a {
-     /* Mostra le ancore come blocchi separati */
-    text-align: center; /* Centra il testo orizzontalmente */
-    padding: 5px 0; /* Aggiungi spazio tra le ancore */
-    position: relative; /* Posizione relativa per l'effetto bounce */
-}
-
-.div-003 a i {
-    width: 100%;
-    position: absolute;
-    bottom: -20px; /* Sposta l'icona verso il basso per nasconderla */
-    left: 0%;
-    transform: translateX(-50%);
-    opacity: 0; /* Nascondi l'icona */
-    transition: bottom 0.3s, opacity 0.3s; /* Aggiungi una transizione */
-}
-
-.div-003 a:hover i {
-    bottom: -50px; /* Mostra l'icona spostandola verso l'alto */
-    opacity: 1; /* Rendi visibile l'icona */
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-20px);
-    }
-    60% {
-        transform: translateY(-10px);
-    }
-}
-
-
-/* OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 /* PER FINESTRE CON LARGHEZZA MASSIMA DI 410PX */
 @media (max-width: 410px) {
     .div-002 img {
