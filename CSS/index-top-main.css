@@ -106,13 +106,13 @@
         top: 30%;
     }
     .div-002 img {
-        width: 365px; 
+        width: 310px; 
     } 
     .div-003 {
         top: 55%;
     }
     .div-003 a {
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
 }
 /* PER FINESTRE CON LARGHEZZA MINIMA DI 376PX  E MASSIMA DI 425PX*/
@@ -124,13 +124,13 @@
         top: 30%;
     }
     .div-002 img {
-        width: 415px; 
+        width: 366px; 
     } 
     .div-003 {
         top: 55%;
     }
     .div-003 a {
-        font-size: 2.1em;
+        font-size: 1.7em;
     }
 }
 /* PER FINESTRE CON LARGHEZZA MINIMA DI 426PX  E MASSIMA DI 768PX*/
@@ -142,13 +142,13 @@
         top: 30%;
     }
     .div-002 img {
-        width: 568px; 
+        width: 416px; 
     } 
     .div-003 {
         top: 55%;
     }
     .div-003 a {
-        font-size: 2.5em;
+        font-size: 2.1em;
     }
 }
 /* PER FINESTRE CON LARGHEZZA MINIMA DI 769PX  E MASSIMA DI 1024PX*/
