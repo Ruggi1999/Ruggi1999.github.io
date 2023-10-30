@@ -82,7 +82,7 @@
 /* PER FINESTRE CON LARGHEZZA MASSIMA DI 320PX */
 @media (max-width: 320px) {
     .div-001 img {
-        height: 60vh;
+        height: 70vh;
     }
     .div-002 {
         top: 25%;
@@ -100,7 +100,7 @@
 /* PER FINESTRE CON LARGHEZZA MINIMA DI 321PX  E MASSIMA DI 375PX*/
 @media (min-width: 321px) and (max-width: 375px) {
     .div-001 img {
-        height: 60vh;
+        height: 70vh;
     }
     .div-002 {
         top: 25%;
@@ -118,7 +118,7 @@
 /* PER FINESTRE CON LARGHEZZA MINIMA DI 376PX  E MASSIMA DI 425PX*/
 @media (min-width: 376px) and (max-width: 425px) {
     .div-001 img {
-        height: 60vh;
+        height: 70vh;
     }
     .div-002 {
         top: 25%;
