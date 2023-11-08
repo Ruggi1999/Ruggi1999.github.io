@@ -1,0 +1,778 @@
+body {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    background-color: #0d0d0d;
+
+    color: #ffffff;
+
+    font-size: 16px;      
+
+    font-weight: 400;  
+
+    letter-spacing: 1px;               
+
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+
+    line-height: 1;
+
+    overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+
+    width: 10px; 
+
+    border-radius: 3px;
+    
+}
+
+body::-webkit-scrollbar-thumb {
+
+    background-color: #888;
+
+}
+
+*,*:before, *:after {
+
+    box-sizing: border-box;
+
+}
+/* ----------- NAVBAR ----------- */
+.nav-bar {
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 2;
+
+}
+
+.section-nav {
+
+    background-color: #0e0e0ef3;
+
+    box-shadow: 3px 3px 6px 0 #ffffff29;
+
+    width: 100%;
+
+    padding: 10px;
+
+    overflow: hidden;
+
+    height: 53px;
+
+}
+
+.logo-link-nav, .menu-link-nav  {
+
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    padding: 10px 10px;
+
+}
+
+.menu-link-nav:nth-last-child(1) {
+
+    display: none;
+
+}
+
+.img-nav {
+
+    position: absolute;
+
+    width: 200px;
+
+    height: auto;
+
+    top: 10px;
+
+}
+
+.aside-nav {
+
+    float: right;
+
+}
+
+@media (max-width:866px) {
+
+    .menu-link-nav:not(:nth-last-child(1)) {
+
+        display: none;
+
+    }
+
+    .menu-link-nav:nth-last-child(1) {
+
+        display: block;
+    
+    }
+
+    .b-nav {
+        display: none;
+    }
+    
+}
+
+/* ----------- NAVBAR ----------- */
+
+/* ----------- HEADER ----------- */
+.header {
+
+    display: block;
+
+    position: relative;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-bottom: 16px;
+
+    max-width: 1500px;
+
+    overflow: hidden;
+    
+
+}
+
+.img-header{
+
+    max-width: 100%;
+
+    height: auto;
+
+    top: auto;
+
+    transition: transform 0.5s; 
+
+}
+
+.img-header-2{
+
+    max-width: 100%;
+
+    height: auto;
+
+    top: auto;
+
+    transition: transform 0.5s; 
+
+}
+
+.img-header-section {
+
+    position: absolute;
+
+    top: 40%;
+
+    left: 5%;
+
+    width: 50%;
+
+    cursor: pointer;
+
+    opacity: 1;
+
+    transition: opacity 0.5s;
+
+}
+
+
+#background-image-2 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    transform: translate(100%, 0); 
+    
+}
+
+/* ----------- HEADER ----------- */
+
+/* ------ CONTENUTO PAGINA ------ */
+.main {
+
+    max-width: 1500px;
+
+
+}
+/* ------ CONTENUTO PAGINA ------ */
+
+/* ----- SEZIONE ALLEVAMENTO ---- */
+
+.section-allevamento {
+    
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: -3%;
+
+}
+
+.div-container-allevamento {
+
+    display: flex;
+
+    width: 1500px;
+
+}
+
+.section-allevamento-2 {
+
+    float: left;
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+.a-allevamento-1 {
+
+    text-decoration: none;
+    
+}
+
+.section-allevamento-2:first-child {
+
+    padding-left: 16px;
+
+    padding-right: 8px;
+
+}
+
+.section-allevamento-2:last-child {
+
+    padding-right: 16px;
+
+    padding-left: 8px;
+
+}
+@media (min-width:601px) {
+
+    .third-about-section-div {
+
+        width: 50%;
+
+    }
+
+}
+@media (min-width:993px) {
+
+    .section-allevamento-2 {
+        width: 50%;
+    }
+}
+
+.section-allevamento-img {
+
+    border-style: none;
+
+    vertical-align: middle;
+    
+    width: 100%;
+
+}
+
+.h4-allevamento-1 {
+
+    text-align: center;
+
+    font-size: 3vw;
+
+    line-height: 1.125;
+
+    font-weight: 600;
+
+    letter-spacing: .002em;
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    margin-top: -6.5%;
+
+    margin-left:0;
+
+    color: #bccf05;
+
+    background-color:#0e0e0eb6;
+
+    position: relative;
+
+    z-index: 1;
+
+    padding: 0 3px;
+
+}
+
+.h4-allevamento-2 {
+
+    font-size: 2vw;
+
+    line-height: 1.125;
+
+    font-weight: 600;
+
+    letter-spacing: .002em;
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    margin-top: -4.6%;
+
+    margin-left:0;
+
+    color: #e216b8;
+
+    background-color:#0e0e0eb6;
+
+    position: relative;
+
+    z-index: 1;
+
+    padding: 0 3px;
+
+}
+
+@media (min-width: 1500px) {
+
+    .h4-allevamento-1, .h4-allevamento-2  {
+
+        font-size: 30px;
+        
+    }
+
+}
+
+/* ----- SEZIONE ALLEVAMENTO ---- */
+
+/* ------ SEZIONE PENSIONE ------ */
+
+.section-pensione {
+    
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: -3%;
+
+}
+
+.div-container-pensione {
+
+    display: flex;
+
+    width: 1500px;
+
+}
+
+.section-pensione-2 {
+
+    float: left;
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+.a-pensione-1 {
+    text-decoration: none;
+}
+
+.section-pensione-2:first-child {
+
+    padding-left: 16px;
+
+    padding-right: 8px;
+
+}
+
+.section-pensione-2:last-child {
+
+    padding-right: 16px;
+
+    padding-left: 8px;
+
+}
+
+@media (min-width:993px) {
+
+    .section-pensione-2 {
+        width: 50%;
+    }
+}
+
+.section-pensione-img {
+
+    border-style: none;
+
+    vertical-align: middle;
+    
+    width: 100%;
+
+}
+
+.h4-pensione-1 {
+
+    font-size: 2vw;
+
+    line-height: 1.125;
+
+    font-weight: 600;
+
+    letter-spacing: .002em;
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    margin-top: -4.6%;
+
+    margin-left:0;
+
+    color: #bccf05;
+
+    background-color:#0e0e0eb6;
+
+    position: relative;
+
+    z-index: 1;
+
+    padding: 0 3px;
+
+}
+
+.h4-pensione-2 {
+
+    font-size: 2vw;
+
+    line-height: 1.125;
+
+    font-weight: 600;
+
+    letter-spacing: .002em;
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    margin-top: -4.6%;
+
+    margin-left:0;
+
+    color: #e216b8;
+
+    background-color:#0e0e0eb6;
+
+    position: relative;
+
+    z-index: 1;
+
+    padding: 0 3px;
+
+}
+
+@media (min-width: 1500px) {
+
+    .h4-pensione-1, .h4-pensione-2  {
+
+        font-size: 30px;
+        
+    }
+
+}
+
+/* ------ SEZIONE PENSIONE ------ */
+
+/* -------- SEZIONE TEAM -------- */
+
+.section-team {
+    
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: 3%;
+
+}
+
+.div-container-team {
+
+    display: flex;
+
+    width: 1500px;
+
+}
+
+.section-team-2 {
+
+    float: left;
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+.section-team-2{
+
+    padding-left: 16px;
+
+    padding-right: 8px;
+
+}
+
+.section-team-2 {
+    
+    width: 50%;
+
+}
+
+.section-team-img {
+
+    border-style: none;
+
+    vertical-align: middle;
+    
+    width: 100%;
+
+}
+
+.h4-team-1,
+.h5-team-1,
+.p-team-1{
+
+    font-size: 2vw;
+
+    line-height: 1.125;
+
+    font-weight: 600;
+
+    letter-spacing: .002em;
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    color: #ffffff;
+
+    position: absolute;
+
+    margin-left: 16px;
+
+}
+
+.h4-team-1 {
+
+    color: #e216b9;
+
+    top: -6%;
+
+    transform: translateY(-50%);
+
+    left: 100%;
+
+    width: 100%;
+
+}
+
+.h4-team-1 i{
+
+    margin-left: 3%;
+
+    opacity: 0.60;
+
+}
+
+.h5-team-1 {
+
+    top: 4%;
+
+    transform: translateY(-50%);
+
+    left: 100%;
+
+    width: 100%;
+
+    font-size: 1.8vw;
+
+    opacity: 0.60;
+
+}
+
+.p-team-1 {
+
+    color: #bccf05;
+
+    top: 16%;
+
+    left: 100%; 
+
+    font-size: 1.6vw;
+
+    width: 100%;
+
+}
+
+@media (min-width: 1500px) {
+
+    .h4-team-1, .h5-team-1, .p-team-1{
+
+        font-size: 30px;
+        
+    }
+
+}
+
+.image-container {
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.slider-indicators {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    margin-top: -30px;
+
+}
+
+.indicator {
+
+    width: 10px;
+
+    height: 10px;
+
+    background-color: #888;
+
+    margin: 0 5px;
+
+    cursor: pointer;
+
+    border-radius: 50%;
+
+}
+
+.indicator.active {
+    
+    background-color:#e216b8;
+
+}
+
+@media (max-width: 768px) {
+
+    .indicator {
+
+        width: 6px;
+
+        height: 6px;
+
+        margin: 0 3px;
+
+        margin-top: -3%;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    .indicator {
+
+        width: 8px;
+
+        height: 8px;
+
+        margin: 0 4px;
+
+        margin-top: -1%;
+
+    }
+    
+}
+
+.h4-team-2 {
+
+    font-size: 2vw;
+
+    line-height: 1.125;
+
+    font-weight: 600;
+
+    letter-spacing: .002em;
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    margin-top: -4.6%;
+
+    margin-left:0;
+
+    color: #bccf05;
+
+    background-color:#0e0e0eb6;
+
+    position: relative;
+
+    z-index: 1;
+
+    padding: 0 3px;
+
+}
+
+@media (min-width: 1500px) {
+
+    .h4-team-2  {
+
+        font-size: 30px;
+        
+    }
+
+}
+
+/* -------- SEZIONE TEAM -------- */
+
+/* ----------- FOOTER ----------- */
+.footer {
+
+    display: block;
+
+    text-align: center;
+
+    padding: 20px 0 20px 0;
+
+    border-top: 1px solid #ffffff10;
+    
+}
+
+/* ----------- FOOTER ----------- */
+
+
+
+
