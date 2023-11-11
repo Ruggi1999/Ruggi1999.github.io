@@ -145,13 +145,12 @@ body::-webkit-scrollbar-thumb {
 
     margin-right: auto;
 
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 
     max-width: 1500px;
 
     overflow: hidden;
     
-
 }
 
 .img-header{
@@ -162,21 +161,16 @@ body::-webkit-scrollbar-thumb {
 
     top: auto;
 
-    transition: transform 0.5s; 
-
 }
 
-.img-header-2{
+/* Media query per schermi più piccoli, ad esempio dispositivi mobili */
+@media (max-width: 600px) {
+    .img-header {
+      background-image: url('sfondo2.jpg');
+    }
+  }
+  
 
-    max-width: 100%;
-
-    height: auto;
-
-    top: auto;
-
-    transition: transform 0.5s; 
-
-}
 
 .img-header-section {
 
@@ -315,12 +309,12 @@ body::-webkit-scrollbar-thumb {
 
         width: 100%;
 
-        margin: 5px 10px 10px 18px; 
+        margin: 5px 10px 17px 18px; 
 
     }
 
     .h4-allevamento-1, .h4-allevamento-2 {
-        top: 5%;
+        top: 5.2%;
     }
 
 }
@@ -488,12 +482,12 @@ body::-webkit-scrollbar-thumb {
 
         width: 100%;
 
-        margin: 5px 10px 10px 18px; 
+        margin: 5px 10px 17px 18px; 
 
     }
 
     .h4-pensione-1, .h4-pensione-2 {
-        top: 5%;
+        top: 5.2%;
     }
 
 }
