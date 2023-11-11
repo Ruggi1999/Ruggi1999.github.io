@@ -70,6 +70,7 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+
 .logo-link-nav, .menu-link-nav  {
 
     text-align: center;
@@ -103,6 +104,7 @@ body::-webkit-scrollbar-thumb {
     top: 10px;
 
 }
+
 
 .aside-nav {
 
@@ -194,6 +196,17 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+@media (max-width: 600px) {
+
+    .img-header-section {
+
+        top: 50%;
+
+        width: 60%;
+
+    }
+
+}
 
 #background-image-2 {
 
@@ -271,20 +284,45 @@ body::-webkit-scrollbar-thumb {
     padding-left: 8px;
 
 }
-@media (min-width:601px) {
 
-    .third-about-section-div {
-
-        width: 50%;
-
-    }
-
-}
 @media (min-width:993px) {
 
     .section-allevamento-2 {
         width: 50%;
     }
+    
+}
+
+@media (max-width: 600px) {
+
+    .div-container-allevamento {
+
+        flex-direction: column;
+
+        align-items: center; 
+
+    }
+
+    .section-allevamento-2 {
+
+        width: 100%;
+
+        margin: 0 18px 5px 10px; 
+
+    }
+
+    .div-container-allevamento .section-allevamento-2:last-child {
+
+        width: 100%;
+
+        margin: 5px 10px 10px 18px; 
+
+    }
+
+    .h4-allevamento-1, .h4-allevamento-2 {
+        top: 5%;
+    }
+
 }
 
 .section-allevamento-img {
@@ -311,7 +349,7 @@ body::-webkit-scrollbar-thumb {
 
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-    margin-top: -6.5%;
+    margin-top: -7%;
 
     margin-left:0;
 
@@ -329,7 +367,9 @@ body::-webkit-scrollbar-thumb {
 
 .h4-allevamento-2 {
 
-    font-size: 2vw;
+    text-align: center;
+
+    font-size: 3vw;
 
     line-height: 1.125;
 
@@ -339,7 +379,7 @@ body::-webkit-scrollbar-thumb {
 
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-    margin-top: -4.6%;
+    margin-top: -7%;
 
     margin-left:0;
 
@@ -426,6 +466,38 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+@media (max-width: 600px) {
+
+    .div-container-pensione {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .section-pensione-2 {
+
+        width: 100%;
+
+        margin: 10px 18px 5px 10px; 
+
+    }
+
+    .div-container-pensione .section-pensione-2:last-child {
+
+        width: 100%;
+
+        margin: 5px 10px 10px 18px; 
+
+    }
+
+    .h4-pensione-1, .h4-pensione-2 {
+        top: 5%;
+    }
+
+}
+
 .section-pensione-img {
 
     border-style: none;
@@ -438,7 +510,9 @@ body::-webkit-scrollbar-thumb {
 
 .h4-pensione-1 {
 
-    font-size: 2vw;
+    text-align: center;
+
+    font-size: 3vw;
 
     line-height: 1.125;
 
@@ -448,7 +522,7 @@ body::-webkit-scrollbar-thumb {
 
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-    margin-top: -4.6%;
+    margin-top: -7%;
 
     margin-left:0;
 
@@ -466,7 +540,9 @@ body::-webkit-scrollbar-thumb {
 
 .h4-pensione-2 {
 
-    font-size: 2vw;
+    text-align: center;
+
+    font-size: 3vw;
 
     line-height: 1.125;
 
@@ -476,7 +552,7 @@ body::-webkit-scrollbar-thumb {
 
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-    margin-top: -4.6%;
+    margin-top: -7%;
 
     margin-left:0;
 
