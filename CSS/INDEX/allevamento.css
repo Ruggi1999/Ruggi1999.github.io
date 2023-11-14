@@ -1,0 +1,114 @@
+/* ----- SEZIONE ALLEVAMENTO ---- */
+.section-allevamento {
+    
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-bottom: -3%;
+
+}
+
+.div-container-allevamento {
+
+    display: flex;
+
+    width: 1500px;
+
+}
+
+.section-allevamento-2 {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+.section-allevamento-2:first-child {
+
+    padding-left: 1%;
+
+    padding-right: 0.5%;
+
+}
+
+.section-allevamento-2:last-child {
+
+    padding-right: 1%;
+
+    padding-left: 0.5%;
+
+}
+
+@media (min-width:993px) {
+
+    .section-allevamento-2 {
+
+        width: 50%;
+
+    }
+    
+}
+
+.a-allevamento-1 {
+
+    text-decoration: none;
+    
+}
+
+.section-allevamento-img {
+
+    border-style: none;
+
+    vertical-align: middle;
+    
+    width: 100%;
+
+}
+
+.h4-allevamento-1 {
+
+    text-align: left;
+
+    font-size: 3vw;
+
+    line-height: 1.125;
+
+    font-weight: 600;
+
+    letter-spacing: .002em;
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    margin-top: -6.8%;
+
+    margin-left:0;
+
+    color: #bccf05;
+
+    background-color:#0e0e0eb6;
+
+    position: relative;
+
+    z-index: 1;
+
+    padding: 0 3px;
+
+}
+
+@media (min-width: 1500px) {
+
+    .h4-allevamento-1 {
+
+        font-size: 30px;
+
+        margin-top: -4.4%;
+        
+    }
+
+}
+
+/* ----- SEZIONE ALLEVAMENTO ---- */
