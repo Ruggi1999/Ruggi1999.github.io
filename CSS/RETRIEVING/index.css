@@ -1,0 +1,74 @@
+/* --------- TAG DI BASE ---------*/
+body {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    background-color: #0d0d0d;
+
+    color: #ffffff;
+
+    font-size: 16px;      
+
+    font-weight: 400;  
+
+    letter-spacing: 1px;               
+
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+
+    line-height: 1;
+
+    overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+
+    width: 10px; 
+
+    border-radius: 3px;
+    
+}
+
+body::-webkit-scrollbar-thumb {
+
+    background-color: #888;
+
+}
+
+*,*:before, *:after {
+
+    box-sizing: border-box;
+
+}
+/* --------- TAG DI BASE ---------*/
+
+/* ------ CONTENUTO PAGINA ------ */
+.main {
+
+    max-width: 1500px;
+
+}
+/* ------ CONTENUTO PAGINA ------ */
+
+/* ----------- FOOTER ----------- */
+.footer {
+
+    display: block;
+
+    text-align: center;
+
+    padding: 20px 0 20px 0;
+
+    border-top: 1px solid #ffffff10;
+
+    font-size: 3vw;
+    
+}
+
+/* ----------- FOOTER ----------- */
+
+
+
+
