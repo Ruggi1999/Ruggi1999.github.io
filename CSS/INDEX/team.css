@@ -1,0 +1,203 @@
+.SECTION-TEAM {
+
+    POSITION: ABSOLUTE;
+
+    WIDTH: 100VW;
+
+    HEIGHT: 100VH;
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER; 
+
+    MARGIN-TOP: 15px; 
+
+    overflow: hidden;
+
+}
+
+.ASIDE-TEAM {
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER;
+
+    MAX-WIDTH: 2000PX;
+
+}
+
+.HEADER-TEAM {
+
+    MARGIN-LEFT: -150%;
+
+    WIDTH: 50%;
+
+}
+
+.DIV-TEAM {
+
+    WIDTH: 50%;
+
+}
+
+.IMG-TEAM {
+
+    MAX-WIDTH: 1000PX;
+
+    WIDTH: 50VW;
+
+    HEIGHT: 100VH;
+
+    OBJECT-FIT: COVER;
+
+    PADDING-RIGHT: 7.5px;
+
+}
+
+@MEDIA (MAX-WIDTH: 800PX) {
+
+    .SECTION-TEAM {
+
+        POSITION: RELATIVE;
+
+        HEIGHT: 50VH;
+
+    }
+
+    .HEADER-TEAM {
+
+        MARGIN-LEFT: 0;
+
+        WIDTH: 100%;
+
+    }
+
+    .DIV-TEAM {
+
+        WIDTH: 100%;
+
+    }
+
+    .IMG-TEAM {
+
+        MAX-WIDTH: 2000PX;
+
+        WIDTH: 100VW;
+
+        HEIGHT: 50VH;
+
+        PADDING-RIGHT: 0;
+
+        margin-top: -37.5px;
+
+    }
+
+    .H1-TEAM {
+
+        MARGIN-left: 25%;
+
+    }
+
+    .H2-TEAM {
+        
+        MARGIN-left: 25%;
+
+    }
+    
+}
+
+.H1-TEAM {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: 50PX;
+
+    COLOR: #bccf05;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 25%;
+
+    TOP: 20%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H1-TEAM {
+
+        LEFT: CALC(50% - 500PX);
+
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .H1-TEAM {
+
+        top: 15%;
+
+        font-size: 37PX;
+
+    }
+
+}
+
+.H2-TEAM {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: LARGE;
+
+    COLOR: #0966FF;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 25%;
+
+    TOP: 33%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@media (max-width: 500px) {
+
+    .H2-TEAM {
+
+        TOP: 28%;
+
+    }
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H2-TEAM {
+
+        LEFT: CALC(50% - 500PX);
+
+    }
+    
+}
+
+.H2-TEAM I {
+
+    VERTICAL-ALIGN: MIDDLE;
+    
+}
+
+
+
+

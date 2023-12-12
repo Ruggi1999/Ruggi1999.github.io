@@ -1,0 +1,205 @@
+.SECTION-MAPPA {
+
+    POSITION: RELATIVE;
+
+    WIDTH: 100VW;
+
+    HEIGHT: 100VH;
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER;
+
+    MARGIN-TOP: 15px; 
+
+    overflow: hidden;
+
+}
+
+.ASIDE-MAPPA {
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER;
+
+    MAX-WIDTH: 2000PX;
+
+}
+
+.HEADER-MAPPA {
+
+    MARGIN-RIGHT: -50%;
+
+    WIDTH: 50%;
+
+}
+
+.DIV-MAPPA {
+
+    WIDTH: 50%;
+
+}
+
+.IMG-MAPPA {
+
+    MAX-WIDTH: 1000PX;
+
+    WIDTH: 50VW;
+
+    HEIGHT: 100VH;
+
+    OBJECT-FIT: COVER;
+
+    PADDING-LEFT: 7.5px;
+
+}
+
+@MEDIA (MAX-WIDTH: 800PX) {
+
+    .SECTION-MAPPA {
+
+        POSITION: RELATIVE;
+
+        HEIGHT: 50VH;
+
+    }
+
+    .HEADER-MAPPA {
+
+        MARGIN-RIGHT: 0;
+
+        WIDTH: 100%;
+
+    }
+
+    .DIV-MAPPA {
+
+        WIDTH: 100%;
+
+    }
+
+    .IMG-MAPPA {
+
+        MAX-WIDTH: 2000PX;
+
+        WIDTH: 100VW;
+
+        HEIGHT: 50VH;
+
+        PADDING-LEFT: 0;
+
+        margin-top: -45px;
+
+    }
+
+    .H1-MAPPA {
+
+        MARGIN-left: -25%;
+
+    }
+
+    .P-MAPPA {
+
+        MARGIN-left: -25%;
+
+    }
+
+    .H2-MAPPA {
+
+        MARGIN-left: -25%;
+
+    }
+
+}
+
+.H1-MAPPA {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: 50px;
+
+    COLOR: #bccf05;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 75%;
+
+    TOP: 20%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H1-MAPPA {
+
+        LEFT: CALC(50% + 500PX);
+
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .H1-MAPPA {
+
+        top: 20%;
+
+        font-size: 37PX;
+
+    }
+
+}
+
+.H2-MAPPA {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: LARGE;
+
+    COLOR: #0966FF;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 75%;
+
+    TOP: 33%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@media (max-width: 500px) {
+
+    .H2-MAPPA {
+
+        TOP: 38%;
+
+    }
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H2-MAPPA {
+
+        LEFT: CALC(50% + 500PX);
+
+    }
+
+}
+
+.H2-MAPPA I {
+
+    VERTICAL-ALIGN: MIDDLE;
+
+}

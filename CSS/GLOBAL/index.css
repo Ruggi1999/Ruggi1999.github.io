@@ -1,0 +1,73 @@
+BODY {
+
+    MARGIN: 0;
+
+    PADDING: 0;
+
+    HEIGHT: 150VH;
+    
+    BOX-SIZING: BORDER-BOX;
+
+    OVERFLOW-X: HIDDEN;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    BACKGROUND-COLOR: #ddddddf3;
+
+}
+
+*, *:BEFORE, *:AFTER {
+
+    BOX-SIZING: BORDER-BOX;
+
+}
+
+.MAIN {
+
+    WIDTH: 100VW;
+
+}
+
+.fadeIn {
+
+    opacity: 0;
+
+    transition: opacity 0.7s ease-in-out;
+
+}
+
+.fadeIn.visible {
+
+    opacity: 1;
+    
+}
+
+
+
+.slideInRight {
+    opacity: 0;
+    transform: translateX(30%);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+/* Aggiungi questa regola CSS per mostrare l'elemento con effetto di transizione */
+.slideInRight.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slideInLeft {
+    opacity: 0;
+    transform: translateX(-30%);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+/* Aggiungi questa regola CSS per mostrare l'elemento con effetto di transizione */
+.slideInLeft.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
