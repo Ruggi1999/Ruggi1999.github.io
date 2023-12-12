@@ -1,0 +1,29 @@
+BODY {
+
+    MARGIN: 0;
+
+    PADDING: 0;
+    
+    BOX-SIZING: BORDER-BOX;
+
+    OVERFLOW-X: HIDDEN;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    BACKGROUND-COLOR: #ddddddf3
+
+}
+
+*, *:BEFORE, *:AFTER {
+
+    BOX-SIZING: BORDER-BOX;
+
+}
+
+.MAIN {
+
+    WIDTH: 100VW;
+
+}
+
+

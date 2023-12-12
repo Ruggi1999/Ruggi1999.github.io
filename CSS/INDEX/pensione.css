@@ -1,0 +1,251 @@
+.SECTION-PENSIONE {
+
+    POSITION: ABSOLUTE;
+
+    WIDTH: 100VW;
+
+    HEIGHT: 100VH;
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER; 
+
+    MARGIN-TOP: 15px;
+
+}
+
+.ASIDE-PENSIONE {
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER;
+
+    MAX-WIDTH: 2000PX;
+
+}
+
+.HEADER-PENSIONE {
+
+    MARGIN-LEFT: -150%;
+
+    WIDTH: 50%;
+
+}
+
+.DIV-PENSIONE {
+
+    WIDTH: 50%;
+
+}
+
+.IMG-PENSIONE {
+
+    MAX-WIDTH: 1000PX;
+
+    WIDTH: 50VW;
+
+    HEIGHT: 100VH;
+
+    OBJECT-FIT: COVER;
+
+    PADDING-RIGHT: 7.5px;
+
+}
+
+@MEDIA (MAX-WIDTH: 800PX) {
+
+    .SECTION-PENSIONE {
+
+        POSITION: RELATIVE;
+
+        HEIGHT: 50VH;
+
+    }
+
+    .HEADER-PENSIONE {
+
+        MARGIN-LEFT: 0;
+
+        WIDTH: 100%;
+
+    }
+
+    .DIV-PENSIONE {
+
+        WIDTH: 100%;
+
+    }
+
+    .IMG-PENSIONE {
+
+        MAX-WIDTH: 2000PX;
+
+        WIDTH: 100VW;
+
+        HEIGHT: 50VH;
+
+        PADDING-RIGHT: 0;
+
+        margin-top: -22.5px;
+
+    }
+
+    .H1-PENSIONE {
+
+        MARGIN-left: 25%;
+
+    }
+
+    .P-PENSIONE {
+        
+        MARGIN-left: 25%;
+
+    }
+
+    .H2-PENSIONE {
+        
+        MARGIN-left: 25%;
+
+    }
+    
+}
+
+.H1-PENSIONE {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: 50PX;
+
+    COLOR: #bccf05;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 25%;
+
+    TOP: 15%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H1-PENSIONE {
+
+        LEFT: CALC(50% - 500PX);
+
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .H1-PENSIONE {
+
+        top: 15%;
+
+        font-size: 37PX;
+
+    }
+
+}
+
+.P-PENSIONE {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: 20PX;
+
+    COLOR: #FFFFFF;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 25%;
+
+    TOP: 27%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .P-PENSIONE {
+
+        LEFT: CALC(50% - 500PX);
+
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .P-PENSIONE {
+
+        TOP: 28%;
+
+        font-size: 17PX;
+
+    }
+
+}
+
+.H2-PENSIONE {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: LARGE;
+
+    COLOR: #0966FF;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 25%;
+
+    TOP: 33%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@media (max-width: 500px) {
+
+    .H2-PENSIONE {
+
+        TOP: 35%;
+
+    }
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H2-PENSIONE {
+
+        LEFT: CALC(50% - 500PX);
+
+    }
+    
+}
+
+.H2-PENSIONE I {
+
+    VERTICAL-ALIGN: MIDDLE;
+    
+}
+
+
+
+

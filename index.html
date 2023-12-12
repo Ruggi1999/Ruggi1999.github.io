@@ -1,177 +1,204 @@
-<!DOCTYPE html>
+<!---------------------------( GLOBAL )---------------------------------->
 
-<html lang="it">
+    <!DOCTYPE html>
 
-<head>
+    <html lang="it">
 
-    <meta charset="UTF-8">
+    <head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
 
-    <title>Document</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="CSS/INDEX/index.css">
+        <title>QUINTINO SELLA 2</title>
 
-    <link rel="stylesheet" href="CSS/INDEX/navbar.css">
+<!----------------------------------------------------------------------->
+<!---------------------------( LINK )------------------------------------>
 
-    <link rel="stylesheet" href="CSS/INDEX/header.css">
+    <link rel="stylesheet" href="CSS/GLOBAL/index.css">
 
-    <link rel="stylesheet" href="CSS/INDEX/allevamento.css">
+    <link rel="stylesheet" href="CSS/GLOBAL/navbar.css">
 
-    <link rel="stylesheet" href="CSS/INDEX/servizi.css">
+    <link rel="stylesheet" href="CSS/GLOBAL/header.css">
 
-    <link rel="stylesheet" href="CSS/INDEX/attività.css">
+    <link rel="stylesheet" href="CSS/INDEX/labrador.css">
+
+    <link rel="stylesheet" href="CSS/INDEX/border.css">
+
+    <link rel="stylesheet" href="CSS/INDEX/pensione.css">
+
+    <link rel="stylesheet" href="CSS/INDEX/asilo.css">
 
     <link rel="stylesheet" href="CSS/INDEX/team.css">
 
-    <link rel="stylesheet" href="CSS/INDEX/contatti.css">
+    <link rel="stylesheet" href="CSS/INDEX/mappa.css">
 
+<!----------------------------------------------------------------------->
+<!---------------------------( GLOBAL )---------------------------------->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-    <!-------------- NAVBAR -------------->
+<!----------------------------------------------------------------------->
+<!---------------------------( MAIN )------------------------------------>
 
-    <section class="header-001">
+    <main class="main">
 
-        <nav class="nav-001">
+<!----------------------------------------------------------------------->
+<!---------------------------( NAV BAR )--------------------------------->
 
-            <ul class="ul-001">
+    <section class="section-navbar">
 
-                <li class="li-001"><a href="tel:+393335714127" class="a-001"><i class="fa-solid fa-square-phone fa-lg" style="color: #ffffff;"></i></a></li>
+        <nav class="nav1-navbar">
 
-                <li class="li-001"><a href="mailto:info@quintinosella.com" class="a-001"><i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i></a></li>
+            <ul class="ul1-navbar">
 
-                <li class="li-001"><a href="index.html" class="a-001">Home</a></li>
+                <li class="li1-navbar"><a href="tel:+393335714127" class="a1-navbar"><i class="fa-solid fa-square-phone fa-lg" style="color: #ffffff;"></i></a></li>
 
-                <li class="li-001 menu"><a href="#" class="a-001">Allevamento <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
+                <li class="li1-navbar"><a href="mailto:info@quintinosella.com" class="a1-navbar"><i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i></a></li>
 
-                    <div class="dropdown-menu-1">
+                <li class="li1-navbar"><a href="#" class="a1-navbar" id="scrollToHeader">Home</a></li>
 
-                        <a href="labrador-retriever.html">Labrador Retriever</a>
+                <li class="li1-navbar"><a href="centro.php" class="a1-navbar">Centro</a></li>
 
-                        <a href="border-collie.html">Border Collie</a>
+                <li class="li1-navbar menu"><a href="#" class="a1-navbar" onclick="return bloccaClick();">Allevamento <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
 
-                    </div>
+                    <div class="dropdown1-nav1-navbar">
 
-                </li>
+                        <a href="labrador-retriever.php">Labrador Retriever</a>
 
-                <li class="li-001 menu"><a href="#" class="a-001">Servizi <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
-
-                    <div class="dropdown-menu-2">
-
-                        <a href="asilo.html">Asilo diurno</a>
-
-                        <a href="pensione.html">Pensione</a>
+                        <a href="border-collie.php">Border Collie</a>
 
                     </div>
 
                 </li>
 
-                <li class="li-001 menu"><a href="#" class="a-001">Attività <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
+                <li class="li1-navbar menu"><a href="#" class="a1-navbar" onclick="return bloccaClick();">Servizi <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
 
-                    <div class="dropdown-menu-3">
+                    <div class="dropdown2-nav1-navbar">
 
-                        <a href="stimolazione-olfattiva.html">Stimolazione olfattiva</a>
+                        <a href="asilo.php">Asilo diurno</a>
 
-                        <a href="percorsi-per-cuccioli.html">Percorsi per cuccioli</a>
-
-                        <a href="maintreiling.html">Maintreiling</a>
-
-                        <a href="educazione.html">Educazione</a>
-
-                        <a href="retrieving.html">Retrieving</a>
-
-                        <a href="sheepdog.html">Sheepdog</a>
-
-                        <a href="agility-dog.html">Agility dog</a>
-
-                        <a href="discdog.html">Discdog</a>
-
-                        <a href="rally-o.html">Rally-o</a>
-
-                        <a href="iaa.html">Iaa</a>
+                        <a href="pensione.php">Pensione</a>
 
                     </div>
 
                 </li>
 
-                <li class="li-001"><a href="team.html" class="a-001">Chi siamo</a></li>
+                <li class="li1-navbar menu"><a href="#" class="a1-navbar" onclick="return bloccaClick();">Attività <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
 
-                <li class="li-001"><a href="contatti.html" class="a-001">Contatti</a></li>
+                    <div class="dropdown3-nav1-navbar">
 
-                <li class="li-001"><a href="https://www.facebook.com/c.c.quintinosella" class="a-001"><i class="fa-brands fa-square-facebook fa-lg" style="color: #ffffff;"></i></a></li>
+                        <a href="educazione.php">Educazione</a>
 
-                <li class="li-001"><a href="https://www.instagram.com/c.c.quintino" class="a-001"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a></li>
+                        <a href="sheepdog.php">Sheepdog</a>
 
-                <li class="li-001"><a href="#" class="a-003" id="a-003"><i class="fa-solid fa-equals fa-lg menu" style="color: #ffffff;"></i></a></li>
+                        <a href="agility-dog.php">Agility Dog</a>
+
+                        <a href="retrieving.php">Riporto</a>
+
+                        <a href="discdog.php">Discdog</a>
+
+                        <a href="rally-o.php">Rally-o</a>
+
+                        <a href="maintrailing.php">Maintrailing</a>
+
+                        <a href="iaa.php">Iaa</a>
+
+                        <a href="stimolazione-olfattiva.php">Stimolazione Olfattiva</a>
+
+                        <a href="percorsi-per-cuccioli.php">Percorsi per Cuccioli</a>
+
+                        <a href="consulenze-comportamentali.php">Consulenze Comportamentali</a>
+
+                        <a href="formazione.php">Formazione</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li1-navbar"><a href="team.php" class="a1-navbar">Chi siamo</a></li>
+
+                <li class="li1-navbar"><a href="contatti.php" class="a1-navbar">Contatti</a></li>
+
+                <li class="li1-navbar"><a href="https://www.facebook.com/c.c.quintinosella" class="a1-navbar"><i class="fa-brands fa-square-facebook fa-lg" style="color: #ffffff;"></i></a></li>
+
+                <li class="li1-navbar"><a href="https://www.instagram.com/c.c.quintino" class="a1-navbar"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a></li>
+
+                <li class="li1-navbar"><a href="#" class="a2-navbar" id="a2-navbar"><i class="fa-solid fa-equals fa-lg menu" style="color: #ffffff;"></i></a></li>
 
             </ul>
 
         </nav>
 
-        <nav class="nav-002">
+        <nav class="nav2-navbar">
 
-            <ul class="ul-002">
+            <ul class="ul2-navbar">
 
-                <li class="li-002"><a href="index.html" class="a-002"><span>Home</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+                <li class="li2-navbar"><a href="index.php" class="a3-navbar"><span>Home</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
 
-                <li class="li-002 menu-2"><a href="#" class="a-002"><span>Allevamento</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
+                <li class="li2-navbar"><a href="centro.php" class="a3-navbar"><span>Centro</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
 
-                    <div class="dropdown-menu-2-1">
+                <li class="li2-navbar menu-2"><a href="#" class="a3-navbar"><span>Allevamento</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
 
-                        <a href="labrador-retriever.html">Labrador Retriever</a>
+                    <div class="dropdown1-nav2-navbar">
 
-                        <a href="border-collie.html">Border Collie</a>
+                        <a href="labrador-retriever.php">Labrador Retriever</a>
 
-                    </div>
-
-                </li>
-
-                <li class="li-002 menu-2"><a href="#" class="a-002"><span>Servizi</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
-
-                    <div class="dropdown-menu-2-2">
-
-                        <a href="asilo.html">Asilo Diurno</a>
-
-                        <a href="pensione.html">Pensione</a>
+                        <a href="border-collie.php">Border Collie</a>
 
                     </div>
 
                 </li>
 
-                <li class="li-002 menu-2 menu-3"><a href="#" class="a-002"><span>Attività</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
+                <li class="li2-navbar menu-2"><a href="#" class="a3-navbar"><span>Servizi</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
 
-                    <div class="dropdown-menu-2-3">
+                    <div class="dropdown2-nav2-navbar">
 
-                        <a href="stimolazione-olfattiva.html">Stimolazione olfattiva</a>
+                        <a href="asilo.php">Asilo Diurno</a>
 
-                        <a href="percorsi-per-cuccioli.html">Percorsi per cuccioli</a>
-
-                        <a href="maintreiling.html">Maintreiling</a>
-
-                        <a href="educazione.html">Educazione</a>
-
-                        <a href="retrieving.html">Retrieving</a>
-
-                        <a href="sheepdog.html">Sheepdog</a>
-
-                        <a href="agility-dog.html">Agility dog</a>
-
-                        <a href="discdog.html">Discdog</a>
-
-                        <a href="rally-o.html">Rally-o</a>
-
-                        <a href="iaa.html">Iaa</a>
+                        <a href="pensione.php">Pensione</a>
 
                     </div>
 
                 </li>
 
-                <li class="li-002"><a href="team.html" class="a-002"><span>Chi siamo</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+                <li class="li2-navbar menu-2 menu-3"><a href="#" class="a3-navbar"><span>Attività</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
 
-                <li class="li-002"><a href="contatti.html" class="a-002"><span>Contatti</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+                    <div class="dropdown3-nav2-navbar">
+
+                        <a href="educazione.php">Educazione</a>
+
+                        <a href="sheepdog.php">Sheepdog</a>
+
+                        <a href="agility-dog.php">Agility Dog</a>
+
+                        <a href="retrieving.php">Riporto</a>
+
+                        <a href="discdog.php">Discdog</a>
+
+                        <a href="rally-o.php">Rally-o</a>
+
+                        <a href="maintrailing.php">Maintrailing</a>
+
+                        <a href="iaa.php">Iaa</a>
+
+                        <a href="stimolazione-olfattiva.php">Stimolazione Olfattiva</a>
+
+                        <a href="percorsi-per-cuccioli.php">Percorsi per Cuccioli</a>
+
+                        <a href="consulenze-comportamentali.php">Consulenze Comportamentali</a>
+
+                        <a href="formazione.php">Formazione</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li2-navbar"><a href="team.php" class="a3-navbar"><span>Chi siamo</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+
+                <li class="li2-navbar"><a href="contatti.php" class="a3-navbar"><span>Contatti</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
 
             </ul>
 
@@ -179,263 +206,431 @@
 
     </section>
 
-    <!-------------- NAVBAR -------------->
 
+    <script>
 
-    <!-------------- HEADER -------------->
+        // ATTENDI CHE IL DOCUMENTO HTML SIA COMPLETAMENTE CARICATO
+        document.addEventListener('DOMContentLoaded', function () {
 
-    <header class="header">
+        // AGGIUNGI UN GESTORE DI EVENTI AL CLICK SULL'ELEMENTO CON ID 'SCROLLTOHEADER'
+            document.getElementById('scrollToHeader').addEventListener('click', function (event) {
 
-        <img id="background-image" class="img-header" src="IMG/sfondo.png" alt="sfondo">
+                // IMPEDISCI IL COMPORTAMENTO PREDEFINITO DEL LINK (EVITA DI FAR SCORRERE IMMEDIATAMENTE LA PAGINA)
+                event.preventDefault();
 
-        <section class="section-header">
+                // OTTIENI L'ELEMENTO DI DESTINAZIONE TRAMITE L'ID 'HEADER'
+                var targetElement = document.getElementById('HEADER');
 
-            <img class="img-header-section" src="IMG/logo.png" alt="logo">
+                    // ESEGUI LO SCORRIMENTO DELICATO SOLO SE L'ELEMENTO DI DESTINAZIONE ESISTE
+                    if (targetElement) {
 
-        </section>
+                        // EFFETTUA LO SCORRIMENTO DELLA PAGINA IN MODO FLUIDO
+                        window.scrollTo({
 
-    </header>
+                        // IMPOSTA LA POSIZIONE VERTICALE DELL'ELEMENTO DI DESTINAZIONE RISPETTO ALL'INIZIO DELLA PAGINA
+                        top: targetElement.offsetTop,
 
-    <!-------------- HEADER -------------->
+                        // IMPOSTA IL COMPORTAMENTO DELLO SCORRIMENTO SU 'SMOOTH' PER UNO SCORRIMENTO FLUIDO
+                        behavior: 'smooth'
 
-    <!--------- CONTENUTO PAGINA --------->
+                    });
 
-    <main class="main">
+                }
 
-        <!------- SEZIONE ALLEVAMENTO -------->
+            });
 
-        <section class="section-allevamento" id="allevamento">
+        });
 
-            <div class="div-container-allevamento">
+    </script>
 
-                <aside class="section-allevamento-2">
+<!----------------------------------------------------------------------->
+<!---------------------------( HEADER )---------------------------------->
 
-                    <a href="labrador-retriever.html" class="a-allevamento-1">
+        <section class="SECTION-H" id="HEADER">
 
-                        <img class="section-allevamento-img" src="IMG/labrador.jpg" alt="labrador">
+            <aside class="ASIDE-H">
 
-                        <h4 class="h4-allevamento-1">LABRADOR RETRIEVER</h4>
+                <header class="HEADER-H">
 
-                    </a>
+                    <div class="DIV-H">
 
-                </aside>
+                        <a href="#LABRADOR" id="scrollToLABRADOR">
 
-                <aside class="section-allevamento-2">
+                            <img class="IMG-H" src="IMG/SFONDO.jpg" alt="SFONDO">
 
-                    <a href="border-collie.html" class="a-allevamento-1">
+                            <h1 class="H1-H">QUINTINO SELLA</h1>
 
-                        <img class="section-allevamento-img" src="IMG/border-collie.jpg" alt="border collie">
+                            <p class="P-H">ALLEVAMENTO - PENSIONE - ADDESTRAMENTO</p>
 
-                        <h4 class="h4-allevamento-1">BORDER COLLIE</h4>
-
-                    </a>
-
-                </aside>
-
-            </div>
-
-        </section>
-
-        <!------- SEZIONE ALLEVAMENTO -------->
-
-        <!-------- SEZIONE SERVIZI ----------->
-        <section class="section-servizi" id="servizi">
-
-            <div class="div-container-servizi">
-
-                <aside class="section-servizi-2">
-
-                    <a href="pensione.html" class="a-servizi-1">
-
-                        <img class="section-servizi-img" src="IMG/labrador2.jpg" alt="labrador-2">
-
-                        <h4 class="h4-servizi-1">PENSIONE</h4>
-
-                    </a>
-
-                </aside>
-
-                <aside class="section-servizi-2">
-
-                    <a href="asilo.html" class="a-servizi-1">
-
-                        <img class="section-servizi-img" src="IMG/border-collie2.jpg" alt="border collie-2">
-
-                        <h4 class="h4-servizi-1">ASILO DIURNO</h4>
-
-                    </a>
-
-                </aside>
-
-            </div>
-
-        </section>
-
-        <!-------- SEZIONE SERVIZI ----------->
-
-        <!-------- SEZIONE ATTIVITÀ ---------->
-        <section class="section-container-attività">
-
-            <aside id="slider-container">
-
-                <div id="slider">
-
-                    <div class="slide">
-
-                        <a href="stimolazione-olfattiva.html">
-
-                            <img src="IMG/labrador.jpg" alt="Image 1">
+                            <h2 class="H2-H">Scopri di più <i class="fa-solid fa-chevron-down fa-bounce"></i></h2>
 
                         </a>
 
                     </div>
 
-                    <div class="slide">
-
-                        <a href="percorsi-per-cuccioli.html">
-
-                            <img src="IMG/labrador2.jpg" alt="Image 2">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="maintreiling.html">
-
-                            <img src="IMG/labrador3.jpg" alt="Image 3">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="educazione.html">
-
-                            <img src="IMG/border-collie.jpg" alt="Image 1">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="retrieving.html">
-
-                            <img src="IMG/labrador.jpg" alt="Image 2">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="sheepdog.html">
-
-                            <img src="IMG/border-collie2.jpg" alt="Image 3">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="agility-dog.html">
-
-                            <img src="IMG/border-collie3.jpg" alt="Image 3">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="discdog.html">
-                            
-                            <img src="IMG/labrador.jpg" alt="Image 1">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="rally-o.html">
-
-                            <img src="IMG/labrador2.jpg" alt="Image 2">
-
-                        </a>
-
-                    </div>
-
-                    <div class="slide">
-
-                        <a href="iaa.html">
-
-                            <img src="IMG/labrador3.jpg" alt="Image 3">
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-                <div id="dots-container"></div>
+                </header>
 
             </aside>
 
         </section>
 
+<!----------------------------------------------------------------------->
+<!---------------------------( LABRADOR )-------------------------------->
 
+        <section class="SECTION-LABRADOR" id="LABRADOR">
 
-        <!-------- SEZIONE ATTIVITÀ ---------->
+            <aside class="ASIDE-LABRADOR">
 
-        <!----------- SEZIONE TEAM ----------->
+                <header class="HEADER-LABRADOR">
 
-        <section class="" id="">
+                    <div class="DIV-LABRADOR">
+
+                        <a href="PHP/labrador.php">
+
+                            <img class="IMG-LABRADOR" src="IMG/LABRADOR.jpg" alt="LABRADOR">
+
+                            <h1 class="H1-LABRADOR">LABRADOR</h1>
+
+                            <p class="P-LABRADOR">ADDESTRAMENTO - ATTIVITÀ - SALUTE</p>
+
+                            <h2 class="H2-LABRADOR">Scopri di più <i class="fa-solid fa-chevron-right fa-beat"></i></h2>
+
+                        </a>
+
+                    </div>
+
+                </header>
+
+            </aside>
 
         </section>
+         
+        <script>
 
-        <section class="">
+            // ATTENDI CHE IL DOCUMENTO HTML SIA COMPLETAMENTE CARICATO
+            document.addEventListener('DOMContentLoaded', function () {
 
-            <aside class="">
+                // AGGIUNGI UN GESTORE DI EVENTI AL CLICK SULL'ELEMENTO CON ID 'SCROLLTOLABRADOR'
+                document.getElementById('scrollToLABRADOR').addEventListener('click', function (event) {
+
+                    // IMPEDISCI IL COMPORTAMENTO PREDEFINITO DEL LINK (EVITA DI FAR SCORRERE IMMEDIATAMENTE LA PAGINA)
+                    event.preventDefault();
+
+                    // OTTIENI L'ELEMENTO DI DESTINAZIONE TRAMITE L'ID 'LABRADOR'
+                    var targetElement = document.getElementById('LABRADOR');
+
+                    // ESEGUI LO SCORRIMENTO DELICATO SOLO SE L'ELEMENTO DI DESTINAZIONE ESISTE
+                    if (targetElement) {
+
+                        // EFFETTUA LO SCORRIMENTO DELLA PAGINA IN MODO FLUIDO
+                        window.scrollTo({
+
+                        // IMPOSTA LA POSIZIONE VERTICALE DELL'ELEMENTO DI DESTINAZIONE RISPETTO ALL'INIZIO DELLA PAGINA
+                        top: targetElement.offsetTop,
+
+                        // IMPOSTA IL COMPORTAMENTO DELLO SCORRIMENTO SU 'SMOOTH' PER UNO SCORRIMENTO FLUIDO
+                        behavior: 'smooth'
+                        });
+
+                    }
+
+                });
+
+            });
+
+        </script>
+
+<!----------------------------------------------------------------------->
+<!---------------------------( BORDER )---------------------------------->
+
+        <section class="SECTION-BORDER">
+
+            <aside class="ASIDE-BORDER">
+
+                <header class="HEADER-BORDER">
+
+                    <div class="DIV-BORDER">
+
+                        <a href="PHP/border.php">
+
+                            <img class="IMG-BORDER" src="IMG/BORDER.jpg" alt="BORDER">
+
+                            <h1 class="H1-BORDER">BORDER COLLIE</h1>
+
+                            <p class="P-BORDER">ADDESTRAMENTO - ATTIVITÀ - SALUTE</p>
+
+                            <h2 class="H2-BORDER">Scopri di più <i class="fa-solid fa-chevron-right fa-beat"></i></h2>
+
+                        </a>
+
+                    </div>
+
+                </header>
 
             </aside>
 
         </section>
 
-        <!----------- SEZIONE TEAM ----------->
+<!----------------------------------------------------------------------->
+<!---------------------------( PENSIONE )-------------------------------->
 
-        <!--------- SEZIONE CONTATTI --------->
+        <section class="SECTION-PENSIONE">
 
-        <!--------- SEZIONE CONTATTI --------->
+            <aside class="ASIDE-PENSIONE">
+
+                <header class="HEADER-PENSIONE">
+
+                    <div class="DIV-PENSIONE">
+
+                        <a href="PHP/pensione.php">
+
+                            <img class="IMG-PENSIONE" src="IMG/PENSIONE.jpg" alt="PENSIONE">
+
+                            <h1 class="H1-PENSIONE">PENSIONE</h1>
+
+                            <p class="P-PENSIONE">PENSIONE - COCCOLE - VACANZE</p>
+
+                            <h2 class="H2-PENSIONE">Scopri di più <i class="fa-solid fa-chevron-right fa-beat"></i></h2>
+                    
+                        </a>
+
+                    </div>
+
+                </header>
+
+            </aside>
+
+        </section>
+
+<!----------------------------------------------------------------------->
+<!---------------------------( ASILO )----------------------------------->
+
+        <section class="SECTION-ASILO">
+
+            <aside class="ASIDE-ASILO">
+
+                <header class="HEADER-ASILO">
+
+                    <div class="DIV-ASILO">
+
+                        <a href="PHP/asilo.php">
+
+                            <img class="IMG-ASILO" src="IMG/ASILO.jpg" alt="ASILO">
+
+                            <h1 class="H1-ASILO">ASILO</h1>
+
+                            <p class="P-ASILO">RIFUGIO - ESPERIENZE - GIOCO</p>
+
+                            <h2 class="H2-ASILO">Scopri di più <i class="fa-solid fa-chevron-right fa-beat"></i></h2>
+                    
+                        </a>
+
+                    </div>
+
+                </header>
+
+            </aside>
+
+        </section>
+
+<!----------------------------------------------------------------------->
+<!---------------------------( TEAM )------------------------------------>
+
+        <section class="SECTION-TEAM">
+
+            <aside class="ASIDE-TEAM">
+
+                <header class="HEADER-TEAM">
+
+                    <div class="DIV-TEAM">
+
+                        <a href="PHP/team.php">
+
+                            <img class="IMG-TEAM" src="IMG/TEAM.jpg" alt="TEAM">
+
+                            <h1 class="H1-TEAM">TEAM</h1>
+
+                            <h2 class="H2-TEAM">Scopri di più <i class="fa-solid fa-chevron-right fa-beat"></i></h2>
+                    
+                        </a>
+
+                    </div>
+
+                </header>
+
+            </aside>
+
+        </section>
+
+<!----------------------------------------------------------------------->
+<!---------------------------( MAPPA )----------------------------------->
+
+        <section class="SECTION-MAPPA">
+
+            <aside class="ASIDE-MAPPA">
+
+                <header class="HEADER-MAPPA">
+
+                    <div class="DIV-MAPPA">
+
+                        <a href="PHP/mappa.php">
+
+                            <iframe class="IMG-MAPPA" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.1010953330783!2d8.743886075328287!3d45.32658097107211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786febb3f359dfb%3A0xcfbc13a04c256448!2sC.C.%20Quintino%20Sella!5e0!3m2!1sit!2sit!4v1702392460704!5m2!1sit!2sit" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </a>
+
+                    </div>
+
+                </header>
+
+            </aside>
+
+        </section>
+
+<!----------------------------------------------------------------------->
+<!---------------------------( COOKIE BAR )------------------------------>
+
+        <div id="cookieBar" class="cookie-bar">
+
+            <p>
+
+                Questo sito utilizza i cookie per garantire 
+
+                la migliore esperienza utente. Continuando 
+
+                a navigare, accetti l'uso dei cookie.
+
+            </p>
+
+            <button onclick="accettaCookie()">Accetta</button>
+
+        </div>
+
+        <script>
+
+            function accettaCookie() {
+
+                document.getElementById("cookieBar").style.display = "none";
+
+            }
+            
+            window.onload = function() {
+
+                document.getElementById("cookieBar").style.display = "block";
+            
+            };
+
+        </script>
+
+        <style>
+
+            .cookie-bar {
+
+                position: fixed;
+
+                bottom: 0;
+
+                left: 0;
+
+                width: 100%;
+
+                background-color: #0e0e0ef3;
+
+                color: #ffffff;
+
+                padding: 10px;
+
+                text-align: center;
+
+                z-index: 10;
+
+            }
+
+            .cookie-bar button {
+
+                background-color: #ffffff;
+
+                color: #000000;
+
+                padding: 10px 20px;
+
+                border: none;
+
+                cursor: pointer;
+
+                z-index: 10;
+
+            }
+
+        </style>
+<!----------------------------------------------------------------------->
+<!---------------------------( WHATSAPP ICON )--------------------------->
+        <a href="https://wa.me/+393333333333" target="_blank" class="whatsapp-icon">
+
+            <i class="fab fa-whatsapp"></i>
+
+        </a>
+
+        <style>
+
+            .whatsapp-icon {
+
+                position: fixed;
+
+                bottom: 20px;
+
+                right: 20px;
+
+                width: 50px;
+
+                height: 50px;
+
+                background-color: #ffffff;
+
+                color: #25D366;
+
+                border-radius: 50%;
+
+                display: flex;
+
+                align-items: center;
+
+                justify-content: center;
+
+                font-size: 24px;
+
+                cursor: pointer;
+
+                text-decoration: none;
+
+                border: 2px solid  #25D366;
+
+            }
+
+            .whatsapp-icon:hover {
+
+                background-color: #128C7E;
+
+            }
+
+        </style>
+<!----------------------------------------------------------------------->
+<!---------------------------( MAIN )------------------------------------>
 
     </main>
 
-    <!--------- CONTENUTO PAGINA --------->
+<!----------------------------------------------------------------------->
+<!---------------------------( SCRIPT )---------------------------------->
 
-    <!-------------- FOOTER -------------->
+    <script src="JS/GLOBAL/navbar.js"></script>
 
-    <footer class="footer">
+    <script src="https://kit.fontawesome.com/350bd83db7.js" crossorigin="anonymous"></script>
 
-        <p>© 2023 Centro Cinofilo QUINTINO SELLA.</p>
+<!----------------------------------------------------------------------->
+<!---------------------------( GLOBAL )---------------------------------->
 
-    </footer>
+    </body>
 
-    <!-------------- FOOTER -------------->
+    </html>
 
-    <!-------------- SCRIPT -------------->
-
-    <script src="JS/INDEX/navbar.js"></script>
-
-    <script src="JS/INDEX/attività.js"></script>
-
-    <script src="https://kit.fontawesome.com/547ed035a5.js" crossorigin="anonymous"></script>
-
-    <!-------------- SCRIPT -------------->
-
-</body>
-
-</html>
+<!----------------------------------------------------------------------->
