@@ -1,6 +1,6 @@
 .SECTION-MAPPA {
 
-    POSITION: ABSOLUTE;
+    POSITION: RELATIVE;
 
     WIDTH: 100VW;
 
@@ -10,7 +10,7 @@
 
     JUSTIFY-CONTENT: CENTER;
 
-    MARGIN-TOP: 15px;
+    MARGIN-TOP: 15px; 
 
 }
 
@@ -86,7 +86,7 @@
 
         PADDING-LEFT: 0;
 
-        margin-top: -30px;
+        margin-top: -45px;
 
     }
 
@@ -124,7 +124,7 @@
 
     LEFT: 75%;
 
-    TOP: 15%;
+    TOP: 20%;
 
     TRANSFORM: TRANSLATE(-50%, -50%);
 
@@ -146,53 +146,9 @@
 
     .H1-MAPPA {
 
-        top: 15%;
+        top: 20%;
 
         font-size: 37PX;
-
-    }
-
-}
-
-.P-MAPPA {
-
-    width: 100%;
-
-    TEXT-ALIGN: CENTER;
-
-    FONT-SIZE: 20PX;
-
-    COLOR: #FFFFFF;
-
-    POSITION: ABSOLUTE;
-
-    LEFT: 75%;
-
-    TOP: 27%;
-
-    TRANSFORM: TRANSLATE(-50%, -50%);
-
-    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
-
-}
-
-@MEDIA (MIN-WIDTH: 2000PX) {
-
-    .P-MAPPA {
-
-        LEFT: CALC(50% + 500PX);
-
-    }
-
-}
-
-@media (max-width: 500px) {
-
-    .P-MAPPA {
-
-        TOP: 28%;
-
-        font-size: 17PX;
 
     }
 
@@ -224,7 +180,7 @@
 
     .H2-MAPPA {
 
-        TOP: 35%;
+        TOP: 38%;
 
     }
 
