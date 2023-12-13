@@ -1,0 +1,249 @@
+.SECTION-ASILO {
+
+    POSITION: RELATIVE;
+
+    WIDTH: 100VW;
+
+    HEIGHT: 100VH;
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER; 
+
+    MARGIN-TOP: 15px;
+
+    overflow: hidden;
+
+}
+
+.ASIDE-ASILO {
+
+    DISPLAY: FLEX;
+
+    JUSTIFY-CONTENT: CENTER;
+
+    MAX-WIDTH: 2000PX;
+
+}
+
+.HEADER-ASILO {
+
+    MARGIN-RIGHT: -50%;
+
+    WIDTH: 50%;
+
+}
+
+.DIV-ASILO {
+
+    WIDTH: 50%;
+
+}
+
+.IMG-ASILO {
+
+    MAX-WIDTH: 1000PX;
+
+    WIDTH: 50VW;
+
+    HEIGHT: 100VH;
+
+    OBJECT-FIT: COVER;
+
+    PADDING-LEFT: 7.5px;
+
+}
+
+@MEDIA (MAX-WIDTH: 800PX) {
+
+    .SECTION-ASILO {
+
+        POSITION: RELATIVE;
+
+        HEIGHT: 50VH;
+
+        margin-top: 10px;
+
+    }
+
+    .HEADER-ASILO {
+
+        MARGIN-RIGHT: 0;
+
+        WIDTH: 100%;
+
+    }
+
+    .DIV-ASILO {
+
+        WIDTH: 100%;
+        
+    }
+
+    .IMG-ASILO {
+
+        MAX-WIDTH: 2000PX;
+
+        WIDTH: 100VW;
+
+        HEIGHT: 50VH;
+
+        PADDING-LEFT: 0;
+
+    }
+
+    .H1-ASILO {
+
+        MARGIN-left: -25%;
+
+    }
+
+    .P-ASILO {
+        
+        MARGIN-left: -25%;
+
+    }
+
+    .H2-ASILO {
+        
+        MARGIN-left: -25%;
+
+    }
+    
+}
+
+.H1-ASILO {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: 50px;
+
+    COLOR: #bccf05;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 75%;
+
+    TOP: 15%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H1-ASILO {
+
+        LEFT: CALC(50% + 500PX);
+
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .H1-ASILO {
+
+        top: 15%;
+
+        font-size: 37PX;
+
+    }
+
+}
+
+.P-ASILO {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: 20PX;
+
+    COLOR: #FFFFFF;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 75%;
+
+    TOP: 27%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .P-ASILO {
+
+        LEFT: CALC(50% + 500PX);
+
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .P-ASILO {
+
+        TOP: 28%;
+
+        font-size: 17PX;
+
+    }
+
+}
+
+.H2-ASILO {
+
+    width: 100%;
+
+    TEXT-ALIGN: CENTER;
+
+    FONT-SIZE: LARGE;
+
+    COLOR: #0966FF;
+
+    POSITION: ABSOLUTE;
+
+    LEFT: 75%;
+
+    TOP: 33%;
+
+    TRANSFORM: TRANSLATE(-50%, -50%);
+
+    TEXT-SHADOW: 2PX 2PX 4PX RGBA(0, 0, 0, 0.5);
+
+}
+
+@media (max-width: 500px) {
+
+    .H2-ASILO {
+
+        TOP: 35%;
+
+    }
+
+}
+
+@MEDIA (MIN-WIDTH: 2000PX) {
+
+    .H2-ASILO {
+
+        LEFT: CALC(50% + 500PX);
+
+    }
+    
+}
+
+.H2-ASILO I {
+
+    VERTICAL-ALIGN: MIDDLE;
+    
+}
