@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+
+<!--------------- LINK --------------->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="CSS/GLOBAL/index.css">
+
+    <link rel="stylesheet" href="CSS/GLOBAL/navbar.css">
+
+    <link rel="stylesheet" href="CSS/GLOBAL/header.css">
+
+    <link rel="stylesheet" href="CSS/CENTRO/pagina-centro.css">
+<!--------------- LINK --------------->
+
+</head>
+
+<body>
+
+<!-------------- NAVBAR -------------->
+
+    <section class="section-navbar">
+
+        <nav class="nav1-navbar">
+
+            <ul class="ul1-navbar">
+
+                <li class="li1-navbar"><a href="tel:+393335714127" class="a1-navbar"><i class="fa-solid fa-square-phone fa-lg" style="color: #ffffff;"></i></a></li>
+
+                <li class="li1-navbar"><a href="mailto:info@quintinosella.com" class="a1-navbar"><i class="fa-solid fa-envelope fa-lg" style="color: #ffffff;"></i></a></li>
+
+                <li class="li1-navbar"><a href="index.html" class="a1-navbar">Home</a></li>
+
+                <li class="li1-navbar"><a href="centro.html" class="a1-navbar">Centro</a></li>
+
+                <li class="li1-navbar menu"><a href="#" class="a1-navbar" onclick="return bloccaClick();">Allevamento <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
+
+                    <div class="dropdown1-nav1-navbar">
+
+                        <a href="labrador-retriever.html">Labrador Retriever</a>
+
+                        <a href="border-collie.html">Border Collie</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li1-navbar menu"><a href="#" class="a1-navbar" onclick="return bloccaClick();">Servizi <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
+
+                    <div class="dropdown2-nav1-navbar">
+
+                        <a href="asilo.html">Asilo diurno</a>
+
+                        <a href="pensione.html">Pensione</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li1-navbar menu"><a href="#" class="a1-navbar" onclick="return bloccaClick();">Attività <i class="fa-solid fa-chevron-down fa-xs" style="color: #ffffff;"></i></a>
+
+                    <div class="dropdown3-nav1-navbar">
+
+                        <a href="educazione.html">Educazione</a>
+
+                        <a href="sheepdog.html">Sheepdog</a>
+
+                        <a href="agility-dog.html">Agility Dog</a>
+
+                        <a href="retrieving.html">Riporto</a>
+
+                        <a href="discdog.html">Discdog</a>
+
+                        <a href="rally-o.html">Rally-o</a>
+
+                        <a href="maintrailing.html">Maintrailing</a>
+
+                        <a href="iaa.html">Iaa</a>
+
+                        <a href="stimolazione-olfattiva.html">Stimolazione Olfattiva</a>
+
+                        <a href="percorsi-per-cuccioli.html">Percorsi per Cuccioli</a>
+
+                        <a href="consulenze-comportamentali.html">Consulenze Comportamentali</a>
+
+                        <a href="formazione.html">Formazione</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li1-navbar"><a href="team.html" class="a1-navbar">Chi siamo</a></li>
+
+                <li class="li1-navbar"><a href="contatti.html" class="a1-navbar">Contatti</a></li>
+
+                <li class="li1-navbar"><a href="https://www.facebook.com/c.c.quintinosella" class="a1-navbar"><i class="fa-brands fa-square-facebook fa-lg" style="color: #ffffff;"></i></a></li>
+
+                <li class="li1-navbar"><a href="https://www.instagram.com/c.c.quintino" class="a1-navbar"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a></li>
+
+                <li class="li1-navbar"><a href="#" class="a2-navbar" id="a2-navbar"><i class="fa-solid fa-equals fa-lg menu" style="color: #ffffff;"></i></a></li>
+
+            </ul>
+
+        </nav>
+
+        <nav class="nav2-navbar">
+
+            <ul class="ul2-navbar">
+
+                <li class="li2-navbar"><a href="index.html" class="a3-navbar"><span>Home</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+
+                <li class="li2-navbar"><a href="centro.html" class="a3-navbar"><span>Centro</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+
+                <li class="li2-navbar menu-2"><a href="#" class="a3-navbar"><span>Allevamento</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
+
+                    <div class="dropdown1-nav2-navbar">
+
+                        <a href="labrador-retriever.html">Labrador Retriever</a>
+
+                        <a href="border-collie.html">Border Collie</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li2-navbar menu-2"><a href="#" class="a3-navbar"><span>Servizi</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
+
+                    <div class="dropdown2-nav2-navbar">
+
+                        <a href="asilo.html">Asilo Diurno</a>
+
+                        <a href="pensione.html">Pensione</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li2-navbar menu-2 menu-3"><a href="#" class="a3-navbar"><span>Attività</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a>
+
+                    <div class="dropdown3-nav2-navbar">
+
+                        <a href="educazione.html">Educazione</a>
+
+                        <a href="sheepdog.html">Sheepdog</a>
+
+                        <a href="agility-dog.html">Agility Dog</a>
+
+                        <a href="retrieving.html">Riporto</a>
+
+                        <a href="discdog.html">Discdog</a>
+
+                        <a href="rally-o.html">Rally-o</a>
+
+                        <a href="maintrailing.html">Maintrailing</a>
+
+                        <a href="iaa.html">Iaa</a>
+
+                        <a href="stimolazione-olfattiva.html">Stimolazione Olfattiva</a>
+
+                        <a href="percorsi-per-cuccioli.html">Percorsi per Cuccioli</a>
+
+                        <a href="consulenze-comportamentali.html">Consulenze Comportamentali</a>
+
+                        <a href="formazione.html">Formazione</a>
+
+                    </div>
+
+                </li>
+
+                <li class="li2-navbar"><a href="team.html" class="a3-navbar"><span>Chi siamo</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+
+                <li class="li2-navbar"><a href="contatti.html" class="a3-navbar"><span>Contatti</span><i class="fa-solid fa-chevron-up fa-rotate-90 fa-2xs" style="color: #ffffff;"></i></a></li>
+
+            </ul>
+
+        </nav>
+
+    </section>
+
+<!-------------- NAVBAR -------------->
+
+<!-------------- HEADER -------------->
+
+    <header class="header">
+
+        <img id="background-image" class="img-header" src="IMG/CENTRO.jpg" alt="sfondo">
+
+        <section class="section-header">
+
+            <img class="img-header-section" src="IMG/logo.png" alt="logo">
+
+        </section>
+
+    </header>
+
+<!-------------- HEADER -------------->
+
+<!-------------- PAGINA -------------->
+    <section class="section-pagina-centro">
+
+        <aside class="aside-pagina-centro">
+
+            <div class="div-pagina-centro">
+
+                <h1 class="h1-pagina-centro">
+
+                    Benvenuti al nostro Centro Cinofilo Quintino Sella!
+
+                </h1>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+    <section class="section-pagina-centro">
+
+        <aside class="aside-pagina-centro">
+
+            <div class="div-pagina-centro">
+
+                <p class="p-fine-centro">
+
+                    Situato a Gravellona Lomellina,
+
+                    una realtà che da oltre 20 anni accoglie con passione persone e cani.
+
+                    Un vero e proprio rifugio di benessere per il tuo amico a quattro
+
+                    zampe, facilmente raggiungibile da Milano, Novara e Pavia. Immerso
+
+                    in oltre 20.000 metri quadrati di terreno ombreggiato, il nostro
+
+                    centro si presenta come il luogo ideale per l'addestramento e il
+
+                    relax del tuo cane.
+
+                </p>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+    <section class="section-pagina-centro">
+
+        <aside class="aside-pagina-centro">
+
+            <div class="div-pagina-centro">
+
+                <i class="fa-solid fa-shield-dog fa-2xl" style="color: #bccf05;"></i><br>
+
+                <h2 class="h2-pagina-centro">Attività</h2>
+
+                <p class="p-pagina-centro">
+
+                    3 Campi di Addestramento: Ambienti<br>
+
+                    diversificati e perfettamente<br>
+
+                    attrezzati per un training versatile,<br>
+
+                    rispondendo a tutte le esigenze.
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Campo di Sheepdog: Uno spazio<br>
+
+                    esclusivamente dedicato agli amanti del<br>
+
+                    sheepdog, arricchito da un gregge di 30<br>
+
+                    ovini, ideale per sviluppare le innate<br>
+
+                    capacità del tuo cane in un contesto<br>
+
+                    realistico e stimolante.<br>
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Aula Didattica e Club House: Spazi<br>
+
+                    progettati per corsi teorici e per<br>
+
+                    favorire momenti di socializzazione e<br>
+
+                    scambio tra gli appassionati.
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Ufficio con Corner Shop:<br>
+
+                    Spazi dedicati alle cure materne e un<br>
+
+                    ufficio con angolo vendita per prodotti<br>
+
+                    di alta qualità.
+
+                </p>
+
+            </div>
+
+            <div class="div-pagina-centro">
+
+                <i class="fa-duotone fa-paw fa-2xl" style="--fa-primary-color: #bccf05; --fa-secondary-color: #bccf05;"></i>
+
+                <br>
+
+                <h2 class="h2-pagina-centro">Soggiorno</h2>
+
+                <p class="p-pagina-centro">
+
+                    20 Recinti Spaziosi: Strutture<br>
+
+                    pensate per garantire comfort e
+
+                    sicurezza.<br>
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Alloggi Vari: Una gamma di soluzioni<br>
+
+                    di soggiorno per soddisfare le diverse<br>
+
+                    esigenze di ogni ospite.<br>
+
+                    Con spazi adeguatamente<br>
+
+                    riscaldati durante i mesi invernali.<br>
+
+                    e ombreggiati durante il periodo<br>
+
+                    estivo.<br>
+
+                </p>
+
+                <p class="p-pagina-centro">
+                    
+                    Gazebo e Piscina per Cani: Luoghi<br>
+
+                    ideali per il divertimento e per<br>
+
+                    offrire frescura nelle giornate più<br>
+
+                    calde.<br>
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Stanza di Toelettatura: Un servizio<br>
+
+                    completo di bellezza e cura, per far<br>
+
+                    risplendere il tuo cane.<br>
+
+                </p>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+    <section class="section-pagina-centro">
+
+        <aside class="aside-pagina-centro">
+
+            <div class="div-pagina-centro">
+
+                <i class="fa-solid fa-dog-leashed fa-2xl" style="color: #bccf05;"></i>
+
+                <br>
+
+                <h2 class="h2-pagina-centro">
+
+                    Servizi e Comfort
+
+                </h2>
+
+                <p class="p-pagina-centro">
+
+                    Custodia H24 e Vasti Spazi Verdi:<br>
+
+                    Sorveglianza continua in un contesto<br>
+
+                    naturale ampio e ben curato.<br>
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Sanificazione Giornaliera: Impegno<br>
+
+                    costante nel mantenere un ambiente<br>
+
+                    pulito e igienizzato per la sicurezza<br>
+
+                    di tutti.<br>
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Autorizzazione ATS: La nostra<br>
+
+                    pensione è pienamente autorizzata<br>
+
+                    dall'ATS, garantendo standard elevati<br>
+
+                    di qualità e sicurezza.<br>
+
+                </p>
+
+                <p class="p-pagina-centro">
+
+                    Locale Infermeria e Sala parto.<br>
+
+                    Reperibilità Veterinaria H24: Impegno<br>
+
+                    costante nella tutela della salute<br>
+
+                    di ogni cane, con supporto veterinario<br>
+
+                    disponibile 24 ore su 24.<br>
+
+                </p>
+
+            </div>
+
+            <div class="div-pagina-centro">
+
+                <i class="fa-duotone fa-people-group fa-2xl" style="--fa-primary-color: #bccf05; --fa-secondary-color: #bccf05;"></i>
+
+                <br>
+
+                <h2 class="h2-pagina-centro">Il nostro Team</h2>
+
+                <p class="p-pagina-centro">
+
+                    Personale Qualificato: Una squadra di<br>
+
+                    professionisti appassionati e esperti,<br>
+
+                    sempre al servizio del benessere e<br>
+
+                    dell'addestramento del tuo amico a<br>
+
+                    quattro zampe.
+
+                </p>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+    <section class="section-pagina-centro">
+
+        <aside class="aside-pagina-centro">
+
+            <div class="div-pagina-centro">
+
+                <p class="p-fine-centro">
+
+                    Il Quintino Sella non è solo un luogo di addestramento, ma
+
+                    una vera e propria comunità dove la passione per i cani diventa cura,
+
+                    formazione e puro divertimento. Vi aspettiamo per offrirvi un'esperienza
+
+                    indimenticabile e unica nel suo genere!<br>
+
+                    <a href="tel:+393335714127"><i class="fa-solid fa-square-phone fa-lg" style="color: #ffffff;"></i> Contattaci oggi</a>
+
+                </p>
+
+            </div>
+
+        </aside>
+
+    </section>
+
+<!-------------- PAGINA -------------->
+
+<!-------------- FOOTER -------------->
+
+    <footer class="footer">
+
+        <p>© 2023 Centro Cinofilo QUINTINO SELLA.</p>
+
+    </footer>
+
+<!-------------- FOOTER -------------->
+
+<!-------------- SCRIPT -------------->
+
+    <script src="JS/GLOBAL/navbar.js"></script>
+
+    <script src="https://kit.fontawesome.com/b10575e5bb.js" crossorigin="anonymous"></script>
+
+<!-------------- SCRIPT -------------->
+
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+.section-pagina-labrador {
+
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+
+}
+.aside-pagina-labrador {
+
+    
+    display: flex;
+
+    width: 1500px;
+
+}
+.div-pagina-labrador {
+
+    width: 100%;
+
+    margin-bottom: 4%;
+
+}
+.div-pagina-labrador i {
+
+    display: flex;
+
+    justify-content: center;
+    
+    align-items: center;
+    
+    margin-top: 2%;
+
+}
+.h1-pagina-labrador {
+
+    font-size: 3vw;
+
+    margin: 2%;
+
+    margin-top: 0;
+
+    text-align: center;
+
+    border-bottom: 1px solid #ea2f8b;
+
+    padding-bottom: 4%;
+
+    padding-top: 4%;
+
+}
+.h2-pagina-labrador {
+
+    margin: 2%;
+
+    margin-left: 15%;
+
+    margin-right: 15%;
+
+    font-size: 3vw;
+
+    text-align: center;
+
+    padding-bottom: 2%;
+
+    border-bottom: 1px solid #ea2f8b;
+
+}
+.p-pagina-labrador {
+
+    margin: 2%;
+
+    font-size: 1.5vw;
+
+    text-align: center;
+
+}
+
+.p-pagina-labrador::before {
+
+    content: "-";
+    
+    left: 0;
+
+    color: #ea2f8b;
+
+}
+
+.p-fine-labrador {
+
+    margin: 2%;
+
+    margin-top: 0;
+
+    font-size: 1.5vw;
+
+    text-align: center;
+
+
+}
+
+@media (min-width: 1500px) {
+
+    .h1-pagina-labrador {
+
+        font-size: 35px;
+
+    }
+
+    .h2-pagina-labrador {
+
+        font-size: 30px;
+
+    }
+
+    .p-pagina-labrador {
+
+        font-size: 30px;
+
+    }
+
+    .p-fine-labrador {
+
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .p-pagina-labrador {
+
+        font-size: 9px;
+
+    }
+
+    .p-fine-labrador {
+
+        font-size: 9px;
+
+    }
+
+}
+
+.a-pagina-labrador {
+
+    margin: 2%;
+
+    font-size: 1.5vw;
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
