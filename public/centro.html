@@ -20,6 +20,12 @@
 
   <script src="js/framework/main.js"></script>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="css/carousel/effect-carousel.min.css">
+
+  <link rel="stylesheet" href="css/carousel/main.css">
+
 </head>
 
 <body class="antialiased bg-gray-800 text-body font-body">
@@ -28,13 +34,13 @@
 
 <!-- NAVBAR -->
 
-    <section class="py-8 px-4 lg:px-10 bg-gray-800">
+    <section class="lg:px-10 fixed top-0 w-full z-50" style="background-color: #bccf00;">
 
       <nav class="relative flex justify-between items-center">
 
-        <a class="text-2xl text-white font-bold" href="index.html">
+        <a class="bg-white px-8 -ml-10 rounded-r-full" href="index.html">
 
-          <img class="h-7" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
+          <img class="h-8 px-8 my-4" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
 
         </a>
 
@@ -44,9 +50,9 @@
 
             <svg class="w-10 h-3" width="39" height="13" viewbox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-              <rect width="39" height="2" rx="1" fill="#C4C4C4"></rect>
+              <rect width="39" height="2" rx="1" fill="#000000"></rect>
 
-              <rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect>
+              <rect x="19" y="11" width="20" height="2" rx="1" fill="#000000"></rect>
 
             </svg>
 
@@ -56,21 +62,21 @@
 
         <div class="hidden lg:block ml-auto mr-16">
 
-          <ul class="flex items-center text-white space-x-10">
+          <ul class="flex items-center text-black space-x-10">
 
-            <li><a class="text-white font-bold text-lg" href="index.html">Home</a></li>
+            <li><a class="text-black font-bold text-md" href="index.html">Home</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="centro.html">Centro</a></li>
+            <li><a class="text-black font-bold text-md" href="centro.html">Centro</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="allevamento.html">Allevamento</a></li>
+            <li><a class="text-black font-bold text-md" href="allevamento.html">Allevamento</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="servizi.html">Servizi</a></li>
+            <li><a class="text-black font-bold text-md" href="servizi.html">Servizi</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="attivita.html">Attività</a></li>
+            <li><a class="text-black font-bold text-md" href="attivita.html">Attività</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="team.html">Team</a></li>
+            <li><a class="text-black font-bold text-md" href="team.html">Team</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="contatti.html">Contatti</a></li>
+            <li><a class="text-black font-bold text-md" href="contatti.html">Contatti</a></li>
 
           </ul>
 
@@ -88,9 +94,11 @@
 
           <div class="flex items-center mb-16 pr-6">
 
-            <a class="ml-10 text-2xl text-gray-800 font-bold" href="#">
+            <a class=" px-8 -ml-10 rounded-r-full" href="index.html">
 
-              <img class="h-7" src="zospace-assets/logos/zospace-dark-logo.svg" alt="" width="auto"></a>
+              <img class="h-8 px-8 my-4" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
+
+            </a>
 
           </div>
 
@@ -136,27 +144,49 @@
 
 <!-- HEADER -->
 
-    <section class="bg-gray-800">
+    <section class="bg-gray-800 mt-20">
 
-      <div class="relative container px-4 pt-12 md:pt-20 mx-auto">
+      <div class="relative container px-4 pt-0 md:pt-0 mx-auto">
 
-        <div class="flex flex-wrap items-center -mx-4 2xl:mb-14">
+        <div class="flex flex-wrap items-center -mx-4 2xl:mb-2">
 
-          <div class="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">
+          <div class="w-full lg:w-1/2 px-4 mb-0 mt-12 lg:mb-0 text-center lg:text-left">
 
-            <span class="text-lg font-bold text-blue-400">Quintino Sella</span>
+            <span class="text-lg font-bold" style="color: #bccf00;">Quintino Sella</span>
 
-            <h2 class="max-w-2xl mt-12 mb-12 text-6xl 2xl:text-8xl text-white font-bold font-heading">Il nostro Centro</h2>
+            <h2 class="max-w-2xl mt-12 mb-12 text-5xl 2xl:text-8xl text-white font-bold font-heading">Il Centro</h2>
 
             <p class="mb-12 lg:mb-16 2xl:mb-24 text-xl text-gray-100">Attività - Soggiorno - Comfort</p>
 
-            <a class="inline-block px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#">Scopri il nostro Centro</a>
+            <a class="inline-block px-12 py-5 mb-6 text-lg text-white font-bold rounded-full transition duration-200" style="background-color: #ea2f8b;" href="#">Scopri il nostro Centro</a>
 
           </div>
 
-          <div class="w-full lg:w-1/2 px-4">
+          <div class="w-full lg:w-1/2 px-0 lg:px-2 hidden sm:block">
+  
+            <img class="w-full border-r-2" src="IMAGES/sfondo.png" alt="" style="border-color: #ea2f8b;">
 
-            <img class="w-full" src="zospace-assets/images/men-circle-stars.png" alt="">
+          </div>
+
+          <div class="max-w-4xl mx-auto -mb-12 mt-10 flex flex-wrap items-center justify-center">
+
+            <div class="w-1/3 px-4 mb-12">
+
+              <i class="h-8 mx-auto fa-brands fa-meta fa-xl" style="color: #7c7c7f;"></i>
+
+            </div>
+
+            <div class="w-1/3 px-4 mb-12">
+
+              <i class="h-8 mx-auto fa-brands fa-x-twitter fa-xl" style="color: #7c7c7f;"></i>
+
+            </div>
+
+            <div class="w-1/3 px-4 mb-12">
+
+              <i class="h-8 mx-auto fa-brands fa-xl fa-instagram" style="color: #7c7c7f;"></i>
+              
+            </div>
 
           </div>
 
@@ -168,67 +198,145 @@
 
 <!-- HEADER -->
 
-<!-- SLIDER -->
+<!-- DESCRIZIONE -->
 
-    <section class="bg-gray-800 py-20 2xl:py-20 overflow-hidden bs-section-dragged">
+    <section class="py-10 2xl:py-20 bg-gray-800">
 
-      <div class="container mx-auto px-4">
+      <div class="container px-4 mx-auto">
 
-        <div class="max-w-6xl mx-auto">
+        <div class="mb-20 text-center">
 
-          <div class="flex mb-12 flex-wrap -mx-6">
+          <span class="text-lg font-bold text-blue-500">Le nostre</span>
 
-            <div class="w-full lg:w-3/5 px-6 mb-12 lg:mb-0">
+          <h2 class="mt-8 text-7xl font-bold font-heading text-white">Attività</h2>
 
-              <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=959&amp;q=80" alt="">
-            
-            </div>
+        </div>
 
-            <div class="w-full lg:w-2/5 px-6">
+        <div class="max-w-4xl mx-auto">
 
-              <div class="relative h-full px-6 lg:px-12 py-10 bg-gray-600 rounded-lg">
+          <ul>
 
-                <div class="absolute top-0 left-0 -mt-6 ml-6 lg:-ml-6 lg:mt-6 w-14 h-14 bg-gray-600" style="clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);"></div>
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
 
-                <h3 class="mb-6 text-2xl font-bold text-white">Attività</h3>
+              <div class="flex w-full text-left ">
 
-                <p class="mb-6 text-lg text-gray-300">- 3 Campi di Addestramento: Versatili e ben attrezzati per soddisfare tutte le esigenze.</p>
+                <div class="w-auto mr-8 ">
 
-                <p class="mb-6 text-lg text-gray-300">- Campo di Sheepdog: Area dedicata al training con un gregge di 30 ovini per sviluppare le capacità del tuo cane.</p>
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">1</span>
 
-                <p class="mb-6 text-lg text-gray-300">- Aula Didattica e Club House: Luoghi per corsi teorici e socializzazione.</p>
+                </div>
 
-                <p class="text-lg text-gray-300">- Ufficio con Corner Shop: Spazi per cure e vendita di prodotti di alta qualità.</p>
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">3 Campi di Addestramento:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white"> Ambienti diversificati e perfettamente attrezzati per un training versatile, rispondendo a tutte le esigenze.</p>
+
+                  </div>
+
+                </div>
 
               </div>
 
-            </div>
+            </li>
 
-          </div>
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
 
-          <div class="text-right pb-0">
+              <div class="flex w-full text-left ">
 
-            <button class="inline-flex mr-2 items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
+                <div class="w-auto mr-8 ">
 
-              <svg class="w-4 h-4" width="7" height="13" viewbox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">2</span>
 
-                <path d="M6.84708 12.1077C7.05097 12.3133 7.05097 12.6436 6.84708 12.8476C6.64319 13.0517 6.31377 13.0525 6.10988 12.8476L0.152917 6.8708C-0.0509739 6.66673 -0.0509738 6.33645 0.152917 6.13087L6.10988 0.154027C6.31377 -0.0500387 6.64319 -0.0500386 6.84708 0.154027C7.05098 0.358848 7.05098 0.689887 6.84708 0.893952L1.4143 6.50121L6.84708 12.1077Z" fill="white"></path>
-             
-              </svg>
+                </div>
 
-            </button>
+                <div class="w-full mt-3 accordion-content">
 
-            <button class="inline-flex items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
+                  <div class="flex items-center justify-between">
 
-              <svg class="w-4 h-4" width="7" height="13" viewbox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <h3 class="text-xl font-bold text-white">Campo di Sheepdog:</h3>
 
-                <path d="M0.152917 0.894235C-0.0509742 0.688658 -0.0509742 0.358375 0.152917 0.15431C0.356808 -0.0497557 0.686228 -0.0505119 0.89012 0.15431L6.84708 6.13116C7.05097 6.33522 7.05097 6.6655 6.84708 6.87108L0.890119 12.8479C0.686227 13.052 0.356807 13.052 0.152916 12.8479C-0.0509753 12.6431 -0.0509753 12.3121 0.152916 12.108L5.5857 6.50074L0.152917 0.894235Z" fill="white"></path>
-              
-              </svg>
+                  </div>
 
-            </button>
+                  <div class="mt-6  ">
 
-          </div>
+                    <p class="mb-5 text-xl text-white">Uno spazio esclusivamente dedicato agli amanti del sheepdog, arricchito da un gregge di 30 ovini, ideale per sviluppare le innate capacità del tuo cane in un contesto realistico e stimolante.</p>
+                 
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">3</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Aula Didattica e Club House:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Spazi progettati per corsi teorici e per favorire momenti di socializzazione e scambio tra gli appassionati.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">4</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Ufficio con Corner Shop:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Spazi dedicati alle cure materne e un ufficio con angolo vendita per prodotti di alta qualità.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
 
         </div>
 
@@ -236,11 +344,299 @@
 
     </section>
 
-<!-- SLIDER -->
+    <section class="py-10 2xl:py-20 bg-gray-800">
+
+      <div class="container px-4 mx-auto">
+
+        <div class="mb-20 text-center">
+
+          <span class="text-lg font-bold text-blue-500">Il nostro</span>
+
+          <h2 class="mt-8 text-7xl font-bold font-heading text-white">Soggiorno</h2>
+
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+
+          <ul>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">1</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">20 Recinti Spaziosi:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Strutture pensate per garantire comfort e sicurezza.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">2</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Alloggi Vari:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Una gamma di soluzioni di soggiorno per soddisfare le diverse esigenze di ogni ospite. Con spazi adeguatamente riscaldati durante i mesi invernali. e ombreggiati durante il periodo estivo.</p>
+                 
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">3</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Gazebo e Piscina per Cani:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Luoghi ideali per il divertimento e per offrire frescura nelle giornate più calde.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">4</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Stanza di Toelettatura:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Un servizio completo di bellezza e cura, per far risplendere il tuo cane.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="py-10 2xl:py-20 bg-gray-800">
+
+      <div class="container px-4 mx-auto">
+
+        <div class="mb-20 text-center">
+
+          <span class="text-lg font-bold text-blue-500">I nostri</span>
+
+          <h2 class="mt-8 text-7xl font-bold font-heading text-white">Servizi e Comfort</h2>
+
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+
+          <ul>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">1</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Custodia H24 e Vasti Spazi Verdi:/h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Sorveglianza continua in un contesto naturale ampio e ben curato.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">2</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Sanificazione Giornaliera:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Impegno costante nel mantenere un ambiente pulito e igienizzato per la sicurezza di tutti.</p>
+                 
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">3</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Autorizzazione ATS:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">La nostra pensione è pienamente autorizzata dall'ATS, garantendo standard elevati di qualità e sicurezza.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="mb-4 px-4 lg:px-12 py-8 rounded-2xl bg-gray-600">
+
+              <div class="flex w-full text-left ">
+
+                <div class="w-auto mr-8 ">
+
+                  <span class="flex items-center justify-center w-12 h-12 text-lg font-bold rounded-full bg-gray-800 text-white">4</span>
+
+                </div>
+
+                <div class="w-full mt-3 accordion-content">
+
+                  <div class="flex items-center justify-between">
+
+                    <h3 class="text-xl font-bold text-white">Reperibilità Veterinaria H24:</h3>
+
+                  </div>
+
+                  <div class="mt-6  ">
+
+                    <p class="mb-5 text-xl text-white">Impegno costante nella tutela della salute di ogni cane, con supporto veterinario disponibile 24 ore su 24.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- DESCRIZIONE -->
 
 <!-- RICONOSCIMENTI -->
 
-    <section class="py-20 bg-gray-800">
+    <!-- <section class="py-20 bg-gray-800">
 
       <div class="container px-4 mx-auto">
 
@@ -306,17 +702,17 @@
 
       </div>
 
-    </section>
+    </section> -->
 
 <!-- RICONOSCIMENTI -->
 
 <!-- FOOTER -->
 
-    <section class="py-20 2xl:py-40 bg-gray-800 bs-section-dragged">
+    <section class="py-10 2xl:py-20 bg-gray-800 bs-section-dragged">
 
       <div class="container px-4 mx-auto">
 
-        <div class="flex flex-wrap -mx-4 pb-24 mb-16 border-b border-gray-400">
+        <div class="flex flex-wrap -mx-4 pb-24 mb-6 border-b border-gray-400">
 
           <div class="w-full lg:w-2/5 px-4 mb-16 lg:mb-0">
 
@@ -328,8 +724,8 @@
 
             <div>
 
-              <a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="contatti.html" _msttexthash="155961" _msthash="73">Contattaci</a>
-            
+              <a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold rounded-full transition duration-200" style="background-color: #bccf00;" href="contatti.html" _msttexthash="155961" _msthash="73">Contattaci</a>
+
             </div>
 
           </div>
@@ -356,7 +752,7 @@
 
               </div>
 
-              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-16 lg:mb-0">
+              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-0 lg:mb-0">
 
                 <ul class="text-lg">
 
@@ -376,7 +772,7 @@
 
                   <li class="mb-2 text-gray-200" _msttexthash="268372" _msthash="109">Via per Borgolavezzaro</li>
 
-                  <li class="mb-6 text-gray-200" _msttexthash="250692" _msthash="110">Gravellona Lomellina (PV)</li>
+                  <li class=" text-gray-200" _msttexthash="250692" _msthash="110">Gravellona Lomellina (PV)</li>
 
                 </ul>
 
@@ -390,9 +786,9 @@
 
         <div class="md-flex justify-between text-center">
 
-          <p class="text-lg text-gray-200 mb-12 md:mb-0 " _msttexthash="5881174" _msthash="111">C.C. Quintino Sella di Pasquale Daniele - Via per Borgolavezzaro - 27020 Gravellona Lomellina (PV) - tell. +39 333.5714127</p>
+          <p class="text-sm text-gray-200 mb-6 md:mb-0 " _msttexthash="5881174" _msthash="111">C.C. Quintino Sella di Pasquale Daniele - Via per Borgolavezzaro - 27020 Gravellona Lomellina (PV) - tell. +39 333.5714127</p>
 
-          <p class="text-lg text-gray-200 mb-12 md:mb-0 " _msttexthash="910936" _msthash="112">P.IVA 02797380181 - c. fisc. PSQDNL85P07L872R</p>
+          <p class="text-sm text-gray-200 mb-6 md:mb-0 " _msttexthash="910936" _msthash="112">P.IVA 02797380181 - c. fisc. PSQDNL85P07L872R</p>
 
           <a class="inline-block mt-6 mr-6" href="#">
 
@@ -415,6 +811,14 @@
 <!-- FOOTER -->
 
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="js/carousel/effect-carousel.min.js"></script>
+
+  <script src="js/carousel/main.js"></script>
+
+  <script src="https://kit.fontawesome.com/2fc1a707bf.js" crossorigin="anonymous"></script>
 
 </body>
 

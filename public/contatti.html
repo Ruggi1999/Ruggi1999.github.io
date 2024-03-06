@@ -20,6 +20,12 @@
 
   <script src="js/framework/main.js"></script>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="css/carousel/effect-carousel.min.css">
+
+  <link rel="stylesheet" href="css/carousel/main.css">
+
 </head>
 
 <body class="antialiased bg-gray-800 text-body font-body">
@@ -28,13 +34,13 @@
 
 <!-- NAVBAR -->
 
-    <section class="py-8 px-4 lg:px-10 bg-gray-800">
+    <section class="lg:px-10 fixed top-0 w-full z-50" style="background-color: #bccf00;">
 
       <nav class="relative flex justify-between items-center">
 
-        <a class="text-2xl text-white font-bold" href="index.html">
+        <a class="bg-white px-8 -ml-10 rounded-r-full" href="index.html">
 
-          <img class="h-7" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
+          <img class="h-8 px-8 my-4" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
 
         </a>
 
@@ -44,9 +50,9 @@
 
             <svg class="w-10 h-3" width="39" height="13" viewbox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-              <rect width="39" height="2" rx="1" fill="#C4C4C4"></rect>
+              <rect width="39" height="2" rx="1" fill="#000000"></rect>
 
-              <rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect>
+              <rect x="19" y="11" width="20" height="2" rx="1" fill="#000000"></rect>
 
             </svg>
 
@@ -56,21 +62,21 @@
 
         <div class="hidden lg:block ml-auto mr-16">
 
-          <ul class="flex items-center text-white space-x-10">
+          <ul class="flex items-center text-black space-x-10">
 
-            <li><a class="text-white font-bold text-lg" href="index.html">Home</a></li>
+            <li><a class="text-black font-bold text-md" href="index.html">Home</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="centro.html">Centro</a></li>
+            <li><a class="text-black font-bold text-md" href="centro.html">Centro</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="allevamento.html">Allevamento</a></li>
+            <li><a class="text-black font-bold text-md" href="allevamento.html">Allevamento</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="servizi.html">Servizi</a></li>
+            <li><a class="text-black font-bold text-md" href="servizi.html">Servizi</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="attivita.html">Attività</a></li>
+            <li><a class="text-black font-bold text-md" href="attivita.html">Attività</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="team.html">Team</a></li>
+            <li><a class="text-black font-bold text-md" href="team.html">Team</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="contatti.html">Contatti</a></li>
+            <li><a class="text-black font-bold text-md" href="contatti.html">Contatti</a></li>
 
           </ul>
 
@@ -88,9 +94,11 @@
 
           <div class="flex items-center mb-16 pr-6">
 
-            <a class="ml-10 text-2xl text-gray-800 font-bold" href="#">
+            <a class=" px-8 -ml-10 rounded-r-full" href="index.html">
 
-              <img class="h-7" src="zospace-assets/logos/zospace-dark-logo.svg" alt="" width="auto"></a>
+              <img class="h-8 px-8 my-4" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
+
+            </a>
 
           </div>
 
@@ -136,7 +144,7 @@
 
 <!-- CONTATTI -->
 
-    <section class="relative py-20 2xl:py-40 bg-gray-800 overflow-hidden">
+    <section class="relative py-20 mt-20 2xl:py-40 bg-gray-800 overflow-hidden">
 
       <img class="absolute bottom-0 right-0 -mr-64 -mb-64" src="zospace-assets/lines/circle.svg" alt="">
 
@@ -278,11 +286,11 @@
 
 <!-- FOOTER -->
 
-    <section class="py-20 2xl:py-40 bg-gray-800 bs-section-dragged">
+    <section class="py-10 2xl:py-20 bg-gray-800 bs-section-dragged">
 
       <div class="container px-4 mx-auto">
 
-        <div class="flex flex-wrap -mx-4 pb-24 mb-16 border-b border-gray-400">
+        <div class="flex flex-wrap -mx-4 pb-24 mb-6 border-b border-gray-400">
 
           <div class="w-full lg:w-2/5 px-4 mb-16 lg:mb-0">
 
@@ -294,8 +302,8 @@
 
             <div>
 
-              <a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="contatti.html" _msttexthash="155961" _msthash="73">Contattaci</a>
-            
+              <a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold rounded-full transition duration-200" style="background-color: #bccf00;" href="contatti.html" _msttexthash="155961" _msthash="73">Contattaci</a>
+
             </div>
 
           </div>
@@ -322,7 +330,7 @@
 
               </div>
 
-              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-16 lg:mb-0">
+              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-0 lg:mb-0">
 
                 <ul class="text-lg">
 
@@ -342,7 +350,7 @@
 
                   <li class="mb-2 text-gray-200" _msttexthash="268372" _msthash="109">Via per Borgolavezzaro</li>
 
-                  <li class="mb-6 text-gray-200" _msttexthash="250692" _msthash="110">Gravellona Lomellina (PV)</li>
+                  <li class=" text-gray-200" _msttexthash="250692" _msthash="110">Gravellona Lomellina (PV)</li>
 
                 </ul>
 
@@ -356,9 +364,9 @@
 
         <div class="md-flex justify-between text-center">
 
-          <p class="text-lg text-gray-200 mb-12 md:mb-0 " _msttexthash="5881174" _msthash="111">C.C. Quintino Sella di Pasquale Daniele - Via per Borgolavezzaro - 27020 Gravellona Lomellina (PV) - tell. +39 333.5714127</p>
+          <p class="text-sm text-gray-200 mb-6 md:mb-0 " _msttexthash="5881174" _msthash="111">C.C. Quintino Sella di Pasquale Daniele - Via per Borgolavezzaro - 27020 Gravellona Lomellina (PV) - tell. +39 333.5714127</p>
 
-          <p class="text-lg text-gray-200 mb-12 md:mb-0 " _msttexthash="910936" _msthash="112">P.IVA 02797380181 - c. fisc. PSQDNL85P07L872R</p>
+          <p class="text-sm text-gray-200 mb-6 md:mb-0 " _msttexthash="910936" _msthash="112">P.IVA 02797380181 - c. fisc. PSQDNL85P07L872R</p>
 
           <a class="inline-block mt-6 mr-6" href="#">
 
@@ -381,6 +389,14 @@
 <!-- FOOTER -->
 
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="js/carousel/effect-carousel.min.js"></script>
+
+  <script src="js/carousel/main.js"></script>
+
+  <script src="https://kit.fontawesome.com/2fc1a707bf.js" crossorigin="anonymous"></script>
 
 </body>
 

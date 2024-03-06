@@ -75,7 +75,7 @@ body {
   font-weight: 500;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 5;
   overflow: hidden;
 }
 @media (max-width: 640px) {

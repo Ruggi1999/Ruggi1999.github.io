@@ -20,6 +20,12 @@
 
   <script src="js/framework/main.js"></script>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="css/carousel/effect-carousel.min.css">
+
+  <link rel="stylesheet" href="css/carousel/main.css">
+
 </head>
 
 <body class="antialiased bg-gray-800 text-body font-body">
@@ -28,13 +34,13 @@
 
 <!-- NAVBAR -->
 
-    <section class="py-8 px-4 lg:px-10 bg-gray-800">
+    <section class="lg:px-10 fixed top-0 w-full z-50" style="background-color: #bccf00;">
 
       <nav class="relative flex justify-between items-center">
 
-        <a class="text-2xl text-white font-bold" href="index.html">
+        <a class="bg-white px-8 -ml-10 rounded-r-full" href="index.html">
 
-          <img class="h-7" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
+          <img class="h-8 px-8 my-4" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
 
         </a>
 
@@ -44,10 +50,9 @@
 
             <svg class="w-10 h-3" width="39" height="13" viewbox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-              <rect width="39" height="2" rx="1" fill="#C4C4C4"></rect>
+              <rect width="39" height="2" rx="1" fill="#000000"></rect>
 
-
-              <rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect>
+              <rect x="19" y="11" width="20" height="2" rx="1" fill="#000000"></rect>
 
             </svg>
 
@@ -57,21 +62,21 @@
 
         <div class="hidden lg:block ml-auto mr-16">
 
-          <ul class="flex items-center text-white space-x-10">
+          <ul class="flex items-center text-black space-x-10">
 
-            <li><a class="text-white font-bold text-lg" href="index.html">Home</a></li>
+            <li><a class="text-black font-bold text-md" href="index.html">Home</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="centro.html">Centro</a></li>
+            <li><a class="text-black font-bold text-md" href="centro.html">Centro</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="allevamento.html">Allevamento</a></li>
+            <li><a class="text-black font-bold text-md" href="allevamento.html">Allevamento</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="servizi.html">Servizi</a></li>
+            <li><a class="text-black font-bold text-md" href="servizi.html">Servizi</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="attivita.html">Attività</a></li>
+            <li><a class="text-black font-bold text-md" href="attivita.html">Attività</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="team.html">Team</a></li>
+            <li><a class="text-black font-bold text-md" href="team.html">Team</a></li>
 
-            <li><a class="text-white font-bold text-lg" href="contatti.html">Contatti</a></li>
+            <li><a class="text-black font-bold text-md" href="contatti.html">Contatti</a></li>
 
           </ul>
 
@@ -89,9 +94,9 @@
 
           <div class="flex items-center mb-16 pr-6">
 
-            <a class="ml-10 text-2xl text-gray-800 font-bold" href="#">
+            <a class=" px-8 -ml-10 rounded-r-full" href="index.html">
 
-              <img class="h-7" src="zospace-assets/logos/zospace-dark-logo.svg" alt="" width="auto">
+              <img class="h-8 px-8 my-4" src="images/CENTRO-CINOFILO-QS.png" alt="" width="auto">
 
             </a>
 
@@ -139,27 +144,49 @@
 
 <!-- HEADER -->
 
-    <section class="bg-gray-800">
+    <section class="bg-gray-800 mt-20">
 
-      <div class="relative container px-4 pt-12 md:pt-20 mx-auto">
+      <div class="relative container px-4 pt-0 md:pt-0 mx-auto">
 
-        <div class="flex flex-wrap items-center -mx-4 2xl:mb-14">
+        <div class="flex flex-wrap items-center -mx-4 2xl:mb-2">
 
-          <div class="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">
+          <div class="w-full lg:w-1/2 px-4 mb-0 mt-12 lg:mb-0 text-center lg:text-left">
 
-            <span class="text-lg font-bold text-blue-400">Quintino Sella</span>
+            <span class="text-lg font-bold" style="color: #bccf00;">Quintino Sella</span>
 
-            <h2 class="max-w-2xl mt-12 mb-12 text-6xl 2xl:text-8xl text-white font-bold font-heading">Il nostro Allevamento</h2>
+            <h2 class="max-w-2xl mt-12 mb-12 text-5xl 2xl:text-8xl text-white font-bold font-heading">L'Allevamento</h2>
 
             <p class="mb-12 lg:mb-16 2xl:mb-24 text-xl text-gray-100">Selezione - Amore - Diposnibilità</p>
 
-            <a class="inline-block px-12 py-5 text-lg text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="#">Scopri il nostro Allevamento</a>
+            <a class="inline-block px-12 py-5 mb-6 text-lg text-white font-bold rounded-full transition duration-200" style="background-color: #ea2f8b;" href="#">Scopri di più</a>
 
           </div>
 
-          <div class="w-full lg:w-1/2 px-4">
+          <div class="w-full lg:w-1/2 px-0 lg:px-2 hidden sm:block">
+  
+            <img class="w-full border-r-2" src="IMAGES/sfondo.png" alt="" style="border-color: #ea2f8b;">
 
-            <img class="w-full" src="zospace-assets/images/men-circle-stars.png" alt="">
+          </div>
+
+          <div class="max-w-4xl mx-auto -mb-12 mt-10 flex flex-wrap items-center justify-center">
+
+            <div class="w-1/3 px-4 mb-12">
+
+              <i class="h-8 mx-auto fa-brands fa-meta fa-xl" style="color: #7c7c7f;"></i>
+
+            </div>
+
+            <div class="w-1/3 px-4 mb-12">
+
+              <i class="h-8 mx-auto fa-brands fa-x-twitter fa-xl" style="color: #7c7c7f;"></i>
+
+            </div>
+
+            <div class="w-1/3 px-4 mb-12">
+
+              <i class="h-8 mx-auto fa-brands fa-xl fa-instagram" style="color: #7c7c7f;"></i>
+              
+            </div>
 
           </div>
 
@@ -271,11 +298,11 @@
 
 <!-- FOOTER -->
 
-    <section class="py-20 2xl:py-40 bg-gray-800 bs-section-dragged">
+    <section class="py-10 2xl:py-20 bg-gray-800 bs-section-dragged">
 
       <div class="container px-4 mx-auto">
 
-        <div class="flex flex-wrap -mx-4 pb-24 mb-16 border-b border-gray-400">
+        <div class="flex flex-wrap -mx-4 pb-24 mb-6 border-b border-gray-400">
 
           <div class="w-full lg:w-2/5 px-4 mb-16 lg:mb-0">
 
@@ -285,7 +312,11 @@
 
             <p class="mb-16 text-gray-300" _msttexthash="643383" _msthash="72">Hai bisogno di informazioni?</p>
 
-            <div><a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="contatti.html" _msttexthash="155961" _msthash="73">Contattaci</a></div>
+            <div>
+
+              <a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold rounded-full transition duration-200" style="background-color: #bccf00;" href="contatti.html" _msttexthash="155961" _msthash="73">Contattaci</a>
+
+            </div>
 
           </div>
 
@@ -311,7 +342,7 @@
 
               </div>
 
-              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-16 lg:mb-0">
+              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-0 lg:mb-0">
 
                 <ul class="text-lg">
 
@@ -331,7 +362,7 @@
 
                   <li class="mb-2 text-gray-200" _msttexthash="268372" _msthash="109">Via per Borgolavezzaro</li>
 
-                  <li class="mb-6 text-gray-200" _msttexthash="250692" _msthash="110">Gravellona Lomellina (PV)</li>
+                  <li class=" text-gray-200" _msttexthash="250692" _msthash="110">Gravellona Lomellina (PV)</li>
 
                 </ul>
 
@@ -345,9 +376,9 @@
 
         <div class="md-flex justify-between text-center">
 
-          <p class="text-lg text-gray-200 mb-12 md:mb-0 " _msttexthash="5881174" _msthash="111">C.C. Quintino Sella di Pasquale Daniele - Via per Borgolavezzaro - 27020 Gravellona Lomellina (PV) - tell. +39 333.5714127</p>
+          <p class="text-sm text-gray-200 mb-6 md:mb-0 " _msttexthash="5881174" _msthash="111">C.C. Quintino Sella di Pasquale Daniele - Via per Borgolavezzaro - 27020 Gravellona Lomellina (PV) - tell. +39 333.5714127</p>
 
-          <p class="text-lg text-gray-200 mb-12 md:mb-0 " _msttexthash="910936" _msthash="112">P.IVA 02797380181 - c. fisc. PSQDNL85P07L872R</p>
+          <p class="text-sm text-gray-200 mb-6 md:mb-0 " _msttexthash="910936" _msthash="112">P.IVA 02797380181 - c. fisc. PSQDNL85P07L872R</p>
 
           <a class="inline-block mt-6 mr-6" href="#">
 
@@ -370,6 +401,14 @@
 <!-- FOOTER -->
 
   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="js/carousel/effect-carousel.min.js"></script>
+  
+  <script src="js/carousel/main.js"></script>
+
+  <script src="https://kit.fontawesome.com/2fc1a707bf.js" crossorigin="anonymous"></script>
 
 </body>
 
