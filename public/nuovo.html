@@ -10,17 +10,15 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&amp;display=swap">
+
   <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="logo/logo.png">
 
   <script src="js/main.js"></script>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-
-  <link rel="stylesheet" href="css/carousel/effect-carousel.min.css">
-
-  <link rel="stylesheet" href="css/carousel/main.css">
 
 </head>
 
@@ -28,56 +26,49 @@
 
   <div class="">
 
-<!--  -->
+    <section class="py-3 px-4 lg:px-10 bg-gray-800 fixed top-0 left-0 right-0 z-50">
 
-    <section class="pb-1 bg-gray-800 bs-section-dragged">
+      <nav class="relative flex justify-between items-center">
 
-      <nav class="relative">
+        <a href="index.html">
 
-        <div class="flex px-4 py-3 lg:px-8 justify-between items-center">
+          <img class="h-12" src="images/logo-MC-250.png" alt="" width="auto">
 
+        </a>
 
-          <a class="text-2xl text-white font-bold" href="index.html">
+        <div class="lg:hidden">
 
-            <img class="h-14" src="images/logo-MC.png" alt="" width="auto">
+          <button class="p-2 navbar-burger">
 
-          </a>
+            <svg class="w-10 h-3" width="39" height="13" viewbox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-          <div class="lg:hidden">
+              <rect width="39" height="2" rx="1" fill="#C4C4C4"></rect>
 
-            <button class="p-2 navbar-burger">
+              <rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect>
 
-              <svg class="w-10 h-3" width="39" height="13" viewbox="0 0 39 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            </svg>
 
-                <rect width="39" height="2" rx="1" fill="#C4C4C4"></rect>
+          </button>
 
-                <rect x="19" y="11" width="20" height="2" rx="1" fill="#C4C4C4"></rect>
+        </div>
 
-              </svg>
+        <div class="hidden lg:block absolute top-1/2 -right-80 transform -translate-y-1/2 -translate-x-1/2">
 
-            </button>
+          <ul class="flex items-center text-white space-x-10">
 
-          </div>
+            <li><a class="text-white font-bold text-lg" href="index.html">Home</a></li>
 
-          <div class="hidden lg:block absolute top-1/2 -right-60 transform -translate-y-1/2 -translate-x-1/2">
+            <li><a class="text-white font-bold text-lg" href="nuovo.html">Nuovo</a></li>
 
-            <ul class="flex items-center text-white space-x-10">
+            <li><a class="text-white font-bold text-lg" href="usato.html">Usato</a></li>
 
-              <li><a class="text-white font-bold text-lg" href="nuovo.html">Nuovo</a></li>
+            <li><a class="text-white font-bold text-lg" href="compro-usato.html">Compro usato</a></li>
 
-              <li><a class="text-white font-bold text-lg" href="usato.html">Usato</a></li>
+            <li><a class="text-white font-bold text-lg" href="allestimenti.html">Allestimenti</a></li>
 
-              <li><a class="text-white font-bold text-lg" href="compro.html">Compro usato</a></li>
+            <li><a class="text-white font-bold text-lg" href="contatti.html">Contatti</a></li>
 
-              <li><a class="text-white font-bold text-lg" href="servizi.html">Servizi</a></li>
-
-              <li><a class="text-white font-bold text-lg" href="info.html">Info Utili</a></li>
-
-              <li><a class="text-white font-bold text-lg" href="contatti.html">Contatti</a></li>
-
-            </ul>
-
-          </div>
+          </ul>
 
         </div>
 
@@ -87,13 +78,13 @@
 
         <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-80"></div>
 
-        <nav class="relative flex flex-col py-8 h-full w-full bg-gray-800 border-r border-gray-400 overflow-y-auto">
+        <nav class="relative flex flex-col py-3 h-full w-full bg-white overflow-y-auto">
 
           <div class="flex items-center mb-16 pr-6">
 
-            <a class="-mt-5 ml-4 mb-6 text-2xl text-white font-bold" href="index.html">
+            <a class="ml-10 text-2xl text-gray-800 font-bold" href="index.html">
 
-              <img class="h-14" src="images/logo-MC.png" alt="" width="auto">
+              <img class="h-12" src="images/logo-MC-250.png" alt="" width="auto">
 
             </a>
 
@@ -103,17 +94,41 @@
 
             <ul>
 
-              <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-white hover:bg-blueGray-50 rounded-xl" href="nuovo.html">Nuovo</a></li>
+              <li class="mb-1 px-10">
 
-              <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-white hover:bg-blueGray-50 rounded-xl" href="usato.html">Usato</a></li>
+                <a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="index.html">Home</a>
 
-              <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-white hover:bg-blueGray-50 rounded-xl" href="compro.html">Compro usato</a></li>
+              </li>
 
-              <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-white hover:bg-blueGray-50 rounded-xl" href="servizi.html">Servizi</a></li>
+              <li class="mb-1 px-10">
 
-              <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-white hover:bg-blueGray-50 rounded-xl" href="info.html">Info Utili</a></li>
+                <a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="nuovo.html">Nuovo</a>
 
-              <li class="mb-1 px-10"><a class="block pl-8 py-4 text-xl text-white hover:bg-blueGray-50 rounded-xl" href="contatti.html">Contatti</a></li>
+              </li>
+
+              <li class="mb-1 px-10">
+
+                <a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="usato.html">Usato</a>
+
+              </li>
+
+              <li class="mb-1 px-10">
+
+                <a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="compro-usato.html">Compro usato</a>
+
+              </li>
+
+              <li class="mb-1 px-10">
+
+                <a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="allestimenti.html">Allestimenti</a>
+
+              </li>
+
+              <li class="mb-1 px-10">
+
+                <a class="block pl-8 py-4 text-xl text-gray-800 hover:bg-blueGray-50 rounded-xl" href="contatti.html">Contatti</a>
+
+              </li>
 
             </ul>
 
@@ -125,141 +140,390 @@
 
     </section>
 
-<!--  -->
+    <section class="relative py-10 2xl:py-20 bg-gray-800 overflow-hidden mt-10">">
 
-    <section class="relative bg-gray-800 py-0 2xl:py-0 overflow-hidden">
+      <div class="container px-3 mx-auto">
 
-      <div class="relative max-w-4xl px-0 lg:px-0 mx-auto py-0 justify-between items-center">
+        <div class="max-w-3xl mx-auto text-center">
 
-        <div class="max-w-xl mx-auto mb-4 lg:mb-8 text-center">
+          <span class="text-sm text-blue-400 font-bold">MC Veicoli Commerciali</span>
 
-          <span class="block mt-4 text-lg text-blue-400 font-semibold">MC Veicoli Commerciali</span>
-
-          <h2 class="mt-4 text-3xl text-white font-bold font-heading">Il Nostro Nuovo</h2>
+          <h2 class="my-5 text-3xl lg:text-6xl font-bold font-heading text-white">Scopri il nostro nuovo</h2>
 
         </div>
 
-        <div id="app">
+      </div>
 
-          <!-- Carousel slider -->
+    </section>
 
-          <div class="swiper">
+    <section class="pb-10 2xl:pb-20 bg-gray-800 bs-section-dragged">
 
-            <div class="swiper-wrapper">
+      <div class="container px-4 mx-auto">
 
-              <div class="swiper-slide">
+        <div class="max-w-6xl mx-auto text-center">
 
-                <div class="swiper-carousel-animate-opacity">
+          <a href="dettagli-nuovo.html">
 
-                  <img src="images/v3dimage.png" alt="">
+            <div class="lg:pl-8 pt-6 lg:pt-6 pb-6 mb-10 bg-gray-900 rounded-xl border-12 border-gray-700">
+
+              <div class="flex flex-wrap">
+
+                <!-- 7/12 -->
+
+                <div class="w-full lg:w-1/2 md:w-1/2 px-4 lg:mb-0">
+
+                  <h2 class="mb-6 lg:mb-14 md:mb-2 md:text-2xl lg:text-3xl text-2xl font-bold font-heading text-white text-left px-4" contenteditable="false">Furgone Coibentato</h2>
+
+                  <img class="mb-4 w-full lg:h-48 md:h-48 h-32 rounded-lg object-cover" src="images/v3dimage.png" alt="">
+
+                </div>
+
+                <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+
+                  <div class=" text-left ">
+
+                    <h2 class="mb-6 lg:mb-14 md:mb-8 flex text-2xl md:text-2xl lg:text-3xl font-bold font-heading text-white px-4" contenteditable="false">Caratteristiche</h2>
+
+                    <ul class="flex flex-wrap text-white text-xs lg:text-lg lg:mb-7 md:mb-0 mb-0 px-4">
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 448 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M112 0c8.8 0 16 7.2 16 16V64H320V16c0-8.8 7.2-16 16-16s16 7.2 16 16V64h32c35.3 0 64 28.7 64 64v32 32V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192 160 128C0 92.7 28.7 64 64 64H96V16c0-8.8 7.2-16 16-16zM416 192H32V448c0 17.7 14.3 32 32 32H384c17.7 0 32-14.3 32-32V192zM384 96H64c-17.7 0-32 14.3-32 32v32H416V128c0-17.7-14.3-32-32-32z"></path>
+
+                        </svg>
+
+                        <span>Anno: 2024</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 576 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M266.2 4.7C273 1.6 280.5 0 288 0s15 1.6 21.8 4.7l217.4 97.5c10.2 4.6 16.8 14.7 16.8 25.9s-6.6 21.3-16.8 25.9L309.8 251.3c-6.9 3.1-14.3 4.7-21.8 4.7s-15-1.6-21.8-4.7L48.8 153.9C38.6 149.3 32 139.2 32 128s6.6-21.3 16.8-25.9L266.2 4.7zM288 32c-3 0-6 .6-8.8 1.9L69.3 128l210 94.1c2.8 1.2 5.7 1.9 8.8 1.9s6-.6 8.8-1.9l210-94.1-210-94.1C294 32.6 291 32 288 32zM48.8 358.1l45.9-20.6 39.1 17.5L69.3 384l210 94.1c2.8 1.2 5.7 1.9 8.8 1.9s6-.6 8.8-1.9l210-94.1-64.5-28.9 39.1-17.5 45.9 20.6c10.2 4.6 16.8 14.7 16.8 25.9s-6.6 21.3-16.8 25.9L309.8 507.3c-6.9 3.1-14.3 4.7-21.8 4.7s-15-1.6-21.8-4.7L48.8 409.9C38.6 405.3 32 395.2 32 384s6.6-21.3 16.8-25.9zM94.7 209.5l39.1 17.5L69.3 256l210 94.1c2.8 1.2 5.7 1.9 8.8 1.9s6-.6 8.8-1.9l210-94.1-64.5-28.9 39.1-17.5 45.9 20.6c10.2 4.6 16.8 14.7 16.8 25.9s-6.6 21.3-16.8 25.9L309.8 379.3c-6.9 3.1-14.3 4.7-21.8 4.7s-15-1.6-21.8-4.7L48.8 281.9C38.6 277.3 32 267.2 32 256s6.6-21.3 16.8-25.9l45.9-20.6z"></path>
+
+                        </svg>
+
+                        <span>Volume: 6,0m3</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M352 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 320 56a56 56 0 1 0 112 0zM275.4 116.4c-12.7-3.2-26.1-3.2-38.8 0l-1.5 .4c-12.3 3.1-23.7 9-33.3 17.4L149.5 180c-6.7 5.8-7.3 15.9-1.5 22.6s15.9 7.3 22.6 1.5l52.4-45.8c5.7-5 12.6-8.6 20-10.4l1.5-.4c7.6-1.9 15.6-1.9 23.3 0l16.9 4.2L249.2 257.9c-7.3 21.8 2 45.7 22 57l93.3 52.5L320.9 490.7c-2.9 8.3 1.4 17.5 9.8 20.4s17.5-1.4 20.4-9.8L394.6 378c5.2-14.7-.9-30.9-14.5-38.5l-37.5-21.1c.2-.4 .4-.9 .5-1.3l37.2-111.6L394 253.2c5.9 20.6 24.7 34.8 46.2 34.8H496c8.8 0 16-7.2 16-16s-7.2-16-16-16H440.1c-7.1 0-13.4-4.7-15.4-11.6l-20.3-71c-4.7-16.5-17.9-29.2-34.5-33.4l-94.5-23.6zm83 53.7L314.3 302.4 286.9 287c-6.7-3.8-9.8-11.7-7.3-19l36.2-108.6 42.7 10.7zM226 314.1L197.3 384H112c-8.8 0-16 7.2-16 16s7.2 16 16 16h85.3c13 0 24.7-7.8 29.6-19.8l23.3-56.6c-10-6.7-18.2-15.5-24.1-25.4zM16 95.8c-8.8 0-16 7.2-16 16s7.2 16 16 16H144c8.8 0 16-7.2 16-16s-7.2-16-16-16H16zm-16 80c0 8.8 7.2 16 16 16H80c8.8 0 16-7.2 16-16s-7.2-16-16-16H16c-8.8 0-16 7.2-16 16zm16 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H144c8.8 0 16-7.2 16-16s-7.2-16-16-16H16z"></path>
+
+                        </svg>
+                        
+                        <span>Km: 55.000</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 640 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M208 64c8.8 0 16 7.2 16 16V256 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V368 144 80c0-8.8 7.2-16 16-16h32zM128 413.3V432c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V272H384V432c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V413.3c5 1.8 10.4 2.7 16 2.7h32c26.5 0 48-21.5 48-48V272h16c8.8 0 16-7.2 16-16s-7.2-16-16-16H608V144c0-26.5-21.5-48-48-48H528c-5.6 0-11 1-16 2.7V80c0-26.5-21.5-48-48-48H432c-26.5 0-48 21.5-48 48V240H256V80c0-26.5-21.5-48-48-48H176c-26.5 0-48 21.5-48 48V98.7C123 97 117.6 96 112 96H80c-26.5 0-48 21.5-48 48v96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H32v96c0 26.5 21.5 48 48 48h32c5.6 0 11-1 16-2.7zM512 144c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16V256 368c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V144zM480 368v64c0 8.8-7.2 16-16 16H432c-8.8 0-16-7.2-16-16V256 80c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64V368zM128 144V368c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V256 144c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16z"></path>
+
+                        </svg>
+                        
+                        <span>Portata: 520kg</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 640 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M464 112c0-8.8-7.2-16-16-16s-16 7.2-16 16V496c0 8.8 7.2 16 16 16s16-7.2 16-16V112zM320 192c-8.8 0-16 7.2-16 16V496c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zM208 304c0-8.8-7.2-16-16-16s-16 7.2-16 16V496c0 8.8 7.2 16 16 16s16-7.2 16-16V304zM80 400c0-8.8-7.2-16-16-16s-16 7.2-16 16v96c0 8.8 7.2 16 16 16s16-7.2 16-16V400z"></path>
+
+                        </svg>
+                        
+                        <span>Forza: 30%</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M175.1 438.1c-50.8 16.9-82.3 10.1-96.7-4.4s-21.3-46-4.4-96.7c5.4-16.2 12.9-33.3 22.5-50.9c16.8 23.8 36.7 47.4 59.4 70.1s46.3 42.6 70.1 59.4c-17.6 9.6-34.7 17.2-50.9 22.5zM55.7 55.7C16.5 94.9 27.6 173.9 76.8 256C27.6 338.1 16.5 417.1 55.7 456.3s118.2 28.1 200.3-21.1c82.1 49.2 161.1 60.3 200.3 21.1s28.1-118.2-21.1-200.3c49.2-82.1 60.3-161.1 21.1-200.3S338.1 27.6 256 76.8C173.9 27.6 94.9 16.5 55.7 55.7zM178.5 333.5c-25.3-25.3-46.6-51.6-63.8-77.5c17.2-25.9 38.6-52.3 63.8-77.5s51.6-46.6 77.5-63.8c25.9 17.2 52.3 38.6 77.5 63.8s46.6 51.6 63.8 77.5c-17.2 25.9-38.6 52.3-63.8 77.5s-51.6 46.6-77.5 63.8c-25.9-17.2-52.3-38.6-77.5-63.8zM155.8 155.8c-22.7 22.7-42.6 46.3-59.4 70.1c-9.6-17.6-17.2-34.7-22.5-50.9c-16.9-50.8-10-82.3 4.4-96.7s46-21.3 96.7-4.4c16.2 5.4 33.3 12.9 50.9 22.5c-23.8 16.8-47.4 36.7-70.1 59.4zm200.3 0c-22.7-22.7-46.3-42.6-70.1-59.4c17.6-9.6 34.7-17.2 50.9-22.5c50.8-16.9 82.3-10 96.7 4.4s21.3 46 4.4 96.7c-5.4 16.2-12.9 33.3-22.5 50.9c-16.8-23.8-36.7-47.4-59.4-70.1zm0 200.3c22.7-22.7 42.6-46.3 59.4-70.1c9.6 17.6 17.2 34.7 22.5 50.9c16.9 50.8 10.1 82.3-4.4 96.7s-46 21.3-96.7 4.4c-16.2-5.4-33.3-12.9-50.9-22.5c23.8-16.8 47.4-36.7 70.1-59.4zM256 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
+
+                        </svg>
+                        
+                        <span>Capienza: 25%</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M288.8 81.7c3.5-12.8 16.7-20.3 29.5-16.8s20.3 16.7 16.8 29.5l-4.5 16.4c-5.5 20.2-13.9 39.3-24.7 56.9c-3.1 4.9-3.2 11.1-.4 16.2s8.2 8.2 14 8.2H448c17.7 0 32 14.3 32 32c0 11.3-5.9 21.3-14.8 27c-7.2 4.6-9.5 13.9-5.3 21.3c2.6 4.6 4.1 10 4.1 15.7c0 12.4-7 23.1-17.3 28.5c-4.2 2.2-7.3 6.1-8.3 10.8s.1 9.5 3 13.2c4.2 5.4 6.7 12.2 6.7 19.5c0 14.2-9.2 26.3-22.1 30.4c-7.8 2.5-12.4 10.6-10.7 18.6c.5 2.2 .7 4.5 .7 6.9c0 17.7-14.3 32-32 32H294.5c-15.8 0-31.2-4.7-44.4-13.4l-38.5-25.7c-9-6-16.6-13.7-22.4-22.6c-4.9-7.4-14.8-9.4-22.2-4.6s-9.4 14.8-4.6 22.2c8.1 12.3 18.7 23.1 31.4 31.6l38.5 25.7c18.4 12.3 40 18.8 62.1 18.8H384c35.3 0 64-28.7 64-64l0-.6c19.1-11.1 32-31.7 32-55.4c0-8.7-1.8-17.1-4.9-24.7C487.9 323.6 496 306.8 496 288c0-6.5-1-12.8-2.8-18.7C504.8 257.7 512 241.7 512 224c0-35.3-28.7-64-64-64H346.4c6.2-13.1 11.3-26.7 15.1-40.9l4.5-16.4c8.1-29.8-9.5-60.6-39.3-68.8s-60.6 9.5-68.8 39.3l-4.5 16.4c-8.9 32.6-29.6 60.8-58.2 79l-3.1 2c-11.8 7.5-21.7 17.1-29.5 28.2c-5.1 7.2-3.3 17.2 4 22.3s17.2 3.3 22.3-4c5.4-7.7 12.2-14.4 20.4-19.5l3.1-2c35.3-22.4 60.9-57.2 71.9-97.5l4.5-16.4zM32 224H96V448H32V224zM0 224V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32c-17.7 0-32 14.3-32 32z"></path>
+
+                        </svg>
+
+                        <span>Sicuro: 25%</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M320 0c-17.7 0-32 14.3-32 32V56c0 17.7 14.3 32 32 32h16c8.8 0 16 7.2 16 16s-7.2 16-16 16H320c-17.7 0-32 14.3-32 32v24c0 17.7 14.3 32 32 32h32c0 26.5 21.5 48 48 48s48-21.5 48-48h32c17.7 0 32-14.3 32-32V64c0-35.3-28.7-64-64-64H320zm0 32H448c17.7 0 32 14.3 32 32V176H432c-8.8 0-16 7.2-16 16v16c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8-7.2-16-16-16H320V152h16c26.5 0 48-21.5 48-48s-21.5-48-48-48H320V32zM64 64C28.7 64 0 92.7 0 128V288 448c0 35.3 28.7 64 64 64H224 384c35.3 0 64-28.7 64-64V304c0-17.7-14.3-32-32-32H368c-17.7 0-32 14.3-32 32v16c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-17.7-14.3-32-32-32H240V96c0-17.7-14.3-32-32-32H64zM208 96V272H176V256c0-26.5-21.5-48-48-48s-48 21.5-48 48v16H32V128c0-17.7 14.3-32 32-32H208zM80 304c17.7 0 32-14.3 32-32V256c0-8.8 7.2-16 16-16s16 7.2 16 16v16c0 17.7 14.3 32 32 32h32v32H192c-26.5 0-48 21.5-48 48s21.5 48 48 48h16v48H64c-17.7 0-32-14.3-32-32V304H80zM240 432c0-17.7-14.3-32-32-32H192c-8.8 0-16-7.2-16-16s7.2-16 16-16h16c17.7 0 32-14.3 32-32V304h32v16c0 26.5 21.5 48 48 48s48-21.5 48-48V304h48V448c0 17.7-14.3 32-32 32H240V432z"></path>
+
+                        </svg>
+                        
+                        <span>Versatilità: 20%</span>
+
+                      </li>
+
+                    </ul>
+
+                  </div>
 
                 </div>
 
               </div>
 
-              <div class="swiper-slide">
+              <p class="lg:mb-10 mb-8 lg:px-4 px-8 text-xs lg:text-lg text-gray-200 text-left ">La soluzione ideale per trasportare al sicuro e al fresco ogni merce: scopri il nostro
+                furgone coibentato! La soluzione ideale per trasportare al sicuro e al fresco ogni merce: scopri il
+                nostro furgone coibentato!</p>
 
-                <div class="swiper-carousel-animate-opacity">
+              <p class="px-8 lg:-mt-7 md:-mt-7 mt-7 text-xs lg:text-lg text-gray-200 lg:text-right md:text-right text-center">A partira da € 14.500</p>
 
-                  <img src="images/v3dimage.png" alt="">
-
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="swiper-carousel-animate-opacity">
-
-                  <img src="images/v3dimage.png" alt="">
-
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="swiper-carousel-animate-opacity">
-
-                  <img src="images/v3dimage.png" alt="">
-
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="swiper-carousel-animate-opacity">
-
-                  <img src="images/v3dimage.png" alt="">
-
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="swiper-carousel-animate-opacity">
-
-                  <img src="images/v3dimage.png" alt="">
-
-                </div>
-
-              </div>
-
-              <div class="swiper-slide">
-
-                <div class="swiper-carousel-animate-opacity">
-
-                  <img src="images/v3dimage.png" alt="">
-
-                </div>
-
-              </div>
+              <p class="px-8 text-xs lg:text-lg text-blue-500 lg:text-right md:text-right text-center">Dettagli</p>
 
             </div>
+
+          </a>
+
+          <a href="nuovo.html">
+
+            <div class="lg:pl-8 pt-6 lg:pt-6 pb-6 mb-10 bg-gray-900 rounded-xl border-12 border-gray-700">
+
+              <div class="flex flex-wrap">
+
+                <!-- 7/12 -->
+
+                <div class="w-full lg:w-1/2 md:w-1/2 px-4 lg:mb-0">
+
+                  <h2 class="mb-6 lg:mb-14 md:mb-2 md:text-2xl lg:text-3xl text-2xl font-bold font-heading text-white text-left px-4" contenteditable="false">Furgone Coibentato</h2>
+
+                  <img class="mb-4 w-full lg:h-48 md:h-48 h-32 rounded-lg object-cover" src="images/v3dimage.png" alt="">
+
+                </div>
+
+                <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+
+                  <div class=" text-left ">
+
+                    <h2 class="mb-6 lg:mb-14 md:mb-8 flex text-2xl md:text-2xl lg:text-3xl font-bold font-heading text-white px-4" contenteditable="false">Caratteristiche</h2>
+
+                    <ul class="flex flex-wrap text-white text-xs lg:text-lg lg:mb-7 md:mb-0 mb-0 px-4">
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 448 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M112 0c8.8 0 16 7.2 16 16V64H320V16c0-8.8 7.2-16 16-16s16 7.2 16 16V64h32c35.3 0 64 28.7 64 64v32 32V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192 160 128C0 92.7 28.7 64 64 64H96V16c0-8.8 7.2-16 16-16zM416 192H32V448c0 17.7 14.3 32 32 32H384c17.7 0 32-14.3 32-32V192zM384 96H64c-17.7 0-32 14.3-32 32v32H416V128c0-17.7-14.3-32-32-32z"></path>
+
+                        </svg>
+                        
+                        <span>Anno: 2024</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 576 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                         
+                          <path fill="#ffffff" d="M266.2 4.7C273 1.6 280.5 0 288 0s15 1.6 21.8 4.7l217.4 97.5c10.2 4.6 16.8 14.7 16.8 25.9s-6.6 21.3-16.8 25.9L309.8 251.3c-6.9 3.1-14.3 4.7-21.8 4.7s-15-1.6-21.8-4.7L48.8 153.9C38.6 149.3 32 139.2 32 128s6.6-21.3 16.8-25.9L266.2 4.7zM288 32c-3 0-6 .6-8.8 1.9L69.3 128l210 94.1c2.8 1.2 5.7 1.9 8.8 1.9s6-.6 8.8-1.9l210-94.1-210-94.1C294 32.6 291 32 288 32zM48.8 358.1l45.9-20.6 39.1 17.5L69.3 384l210 94.1c2.8 1.2 5.7 1.9 8.8 1.9s6-.6 8.8-1.9l210-94.1-64.5-28.9 39.1-17.5 45.9 20.6c10.2 4.6 16.8 14.7 16.8 25.9s-6.6 21.3-16.8 25.9L309.8 507.3c-6.9 3.1-14.3 4.7-21.8 4.7s-15-1.6-21.8-4.7L48.8 409.9C38.6 405.3 32 395.2 32 384s6.6-21.3 16.8-25.9zM94.7 209.5l39.1 17.5L69.3 256l210 94.1c2.8 1.2 5.7 1.9 8.8 1.9s6-.6 8.8-1.9l210-94.1-64.5-28.9 39.1-17.5 45.9 20.6c10.2 4.6 16.8 14.7 16.8 25.9s-6.6 21.3-16.8 25.9L309.8 379.3c-6.9 3.1-14.3 4.7-21.8 4.7s-15-1.6-21.8-4.7L48.8 281.9C38.6 277.3 32 267.2 32 256s6.6-21.3 16.8-25.9l45.9-20.6z"></path>
+
+                        </svg>
+                        
+                        <span>Volume: 6,0m3</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M352 56a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm80 0A56 56 0 1 0 320 56a56 56 0 1 0 112 0zM275.4 116.4c-12.7-3.2-26.1-3.2-38.8 0l-1.5 .4c-12.3 3.1-23.7 9-33.3 17.4L149.5 180c-6.7 5.8-7.3 15.9-1.5 22.6s15.9 7.3 22.6 1.5l52.4-45.8c5.7-5 12.6-8.6 20-10.4l1.5-.4c7.6-1.9 15.6-1.9 23.3 0l16.9 4.2L249.2 257.9c-7.3 21.8 2 45.7 22 57l93.3 52.5L320.9 490.7c-2.9 8.3 1.4 17.5 9.8 20.4s17.5-1.4 20.4-9.8L394.6 378c5.2-14.7-.9-30.9-14.5-38.5l-37.5-21.1c.2-.4 .4-.9 .5-1.3l37.2-111.6L394 253.2c5.9 20.6 24.7 34.8 46.2 34.8H496c8.8 0 16-7.2 16-16s-7.2-16-16-16H440.1c-7.1 0-13.4-4.7-15.4-11.6l-20.3-71c-4.7-16.5-17.9-29.2-34.5-33.4l-94.5-23.6zm83 53.7L314.3 302.4 286.9 287c-6.7-3.8-9.8-11.7-7.3-19l36.2-108.6 42.7 10.7zM226 314.1L197.3 384H112c-8.8 0-16 7.2-16 16s7.2 16 16 16h85.3c13 0 24.7-7.8 29.6-19.8l23.3-56.6c-10-6.7-18.2-15.5-24.1-25.4zM16 95.8c-8.8 0-16 7.2-16 16s7.2 16 16 16H144c8.8 0 16-7.2 16-16s-7.2-16-16-16H16zm-16 80c0 8.8 7.2 16 16 16H80c8.8 0 16-7.2 16-16s-7.2-16-16-16H16c-8.8 0-16 7.2-16 16zm16 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H144c8.8 0 16-7.2 16-16s-7.2-16-16-16H16z"></path>
+
+                        </svg>
+                        
+                        <span>Km: 55.000</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 640 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M208 64c8.8 0 16 7.2 16 16V256 432c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V368 144 80c0-8.8 7.2-16 16-16h32zM128 413.3V432c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V272H384V432c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V413.3c5 1.8 10.4 2.7 16 2.7h32c26.5 0 48-21.5 48-48V272h16c8.8 0 16-7.2 16-16s-7.2-16-16-16H608V144c0-26.5-21.5-48-48-48H528c-5.6 0-11 1-16 2.7V80c0-26.5-21.5-48-48-48H432c-26.5 0-48 21.5-48 48V240H256V80c0-26.5-21.5-48-48-48H176c-26.5 0-48 21.5-48 48V98.7C123 97 117.6 96 112 96H80c-26.5 0-48 21.5-48 48v96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H32v96c0 26.5 21.5 48 48 48h32c5.6 0 11-1 16-2.7zM512 144c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16V256 368c0 8.8-7.2 16-16 16H528c-8.8 0-16-7.2-16-16V144zM480 368v64c0 8.8-7.2 16-16 16H432c-8.8 0-16-7.2-16-16V256 80c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v64V368zM128 144V368c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V256 144c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16z"></path>
+
+                        </svg>
+                        
+                        <span>Portata: 520kg</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 640 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M464 112c0-8.8-7.2-16-16-16s-16 7.2-16 16V496c0 8.8 7.2 16 16 16s16-7.2 16-16V112zM320 192c-8.8 0-16 7.2-16 16V496c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zM208 304c0-8.8-7.2-16-16-16s-16 7.2-16 16V496c0 8.8 7.2 16 16 16s16-7.2 16-16V304zM80 400c0-8.8-7.2-16-16-16s-16 7.2-16 16v96c0 8.8 7.2 16 16 16s16-7.2 16-16V400z"></path>
+
+                        </svg>
+                        
+                        <span>Forza: 30%</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M175.1 438.1c-50.8 16.9-82.3 10.1-96.7-4.4s-21.3-46-4.4-96.7c5.4-16.2 12.9-33.3 22.5-50.9c16.8 23.8 36.7 47.4 59.4 70.1s46.3 42.6 70.1 59.4c-17.6 9.6-34.7 17.2-50.9 22.5zM55.7 55.7C16.5 94.9 27.6 173.9 76.8 256C27.6 338.1 16.5 417.1 55.7 456.3s118.2 28.1 200.3-21.1c82.1 49.2 161.1 60.3 200.3 21.1s28.1-118.2-21.1-200.3c49.2-82.1 60.3-161.1 21.1-200.3S338.1 27.6 256 76.8C173.9 27.6 94.9 16.5 55.7 55.7zM178.5 333.5c-25.3-25.3-46.6-51.6-63.8-77.5c17.2-25.9 38.6-52.3 63.8-77.5s51.6-46.6 77.5-63.8c25.9 17.2 52.3 38.6 77.5 63.8s46.6 51.6 63.8 77.5c-17.2 25.9-38.6 52.3-63.8 77.5s-51.6 46.6-77.5 63.8c-25.9-17.2-52.3-38.6-77.5-63.8zM155.8 155.8c-22.7 22.7-42.6 46.3-59.4 70.1c-9.6-17.6-17.2-34.7-22.5-50.9c-16.9-50.8-10-82.3 4.4-96.7s46-21.3 96.7-4.4c16.2 5.4 33.3 12.9 50.9 22.5c-23.8 16.8-47.4 36.7-70.1 59.4zm200.3 0c-22.7-22.7-46.3-42.6-70.1-59.4c17.6-9.6 34.7-17.2 50.9-22.5c50.8-16.9 82.3-10 96.7 4.4s21.3 46 4.4 96.7c-5.4 16.2-12.9 33.3-22.5 50.9c-16.8-23.8-36.7-47.4-59.4-70.1zm0 200.3c22.7-22.7 42.6-46.3 59.4-70.1c9.6 17.6 17.2 34.7 22.5 50.9c16.9 50.8 10.1 82.3-4.4 96.7s-46 21.3-96.7 4.4c-16.2-5.4-33.3-12.9-50.9-22.5c23.8-16.8 47.4-36.7 70.1-59.4zM256 280a24 24 0 1 0 0-48 24 24 0 1 0 0 48z"></path>
+
+                        </svg>
+                        
+                        <span>Capienza: 25%</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M288.8 81.7c3.5-12.8 16.7-20.3 29.5-16.8s20.3 16.7 16.8 29.5l-4.5 16.4c-5.5 20.2-13.9 39.3-24.7 56.9c-3.1 4.9-3.2 11.1-.4 16.2s8.2 8.2 14 8.2H448c17.7 0 32 14.3 32 32c0 11.3-5.9 21.3-14.8 27c-7.2 4.6-9.5 13.9-5.3 21.3c2.6 4.6 4.1 10 4.1 15.7c0 12.4-7 23.1-17.3 28.5c-4.2 2.2-7.3 6.1-8.3 10.8s.1 9.5 3 13.2c4.2 5.4 6.7 12.2 6.7 19.5c0 14.2-9.2 26.3-22.1 30.4c-7.8 2.5-12.4 10.6-10.7 18.6c.5 2.2 .7 4.5 .7 6.9c0 17.7-14.3 32-32 32H294.5c-15.8 0-31.2-4.7-44.4-13.4l-38.5-25.7c-9-6-16.6-13.7-22.4-22.6c-4.9-7.4-14.8-9.4-22.2-4.6s-9.4 14.8-4.6 22.2c8.1 12.3 18.7 23.1 31.4 31.6l38.5 25.7c18.4 12.3 40 18.8 62.1 18.8H384c35.3 0 64-28.7 64-64l0-.6c19.1-11.1 32-31.7 32-55.4c0-8.7-1.8-17.1-4.9-24.7C487.9 323.6 496 306.8 496 288c0-6.5-1-12.8-2.8-18.7C504.8 257.7 512 241.7 512 224c0-35.3-28.7-64-64-64H346.4c6.2-13.1 11.3-26.7 15.1-40.9l4.5-16.4c8.1-29.8-9.5-60.6-39.3-68.8s-60.6 9.5-68.8 39.3l-4.5 16.4c-8.9 32.6-29.6 60.8-58.2 79l-3.1 2c-11.8 7.5-21.7 17.1-29.5 28.2c-5.1 7.2-3.3 17.2 4 22.3s17.2 3.3 22.3-4c5.4-7.7 12.2-14.4 20.4-19.5l3.1-2c35.3-22.4 60.9-57.2 71.9-97.5l4.5-16.4zM32 224H96V448H32V224zM0 224V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32c-17.7 0-32 14.3-32 32z"></path>
+
+                        </svg>
+                        
+                        <span>Sicuro: 25%</span>
+
+                      </li>
+
+                      <li class="w-1/2 px-0 mb-6 flex items-center text-left">
+
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" height="16" width="20" viewbox="0 0 512 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+                          
+                          <path fill="#ffffff" d="M320 0c-17.7 0-32 14.3-32 32V56c0 17.7 14.3 32 32 32h16c8.8 0 16 7.2 16 16s-7.2 16-16 16H320c-17.7 0-32 14.3-32 32v24c0 17.7 14.3 32 32 32h32c0 26.5 21.5 48 48 48s48-21.5 48-48h32c17.7 0 32-14.3 32-32V64c0-35.3-28.7-64-64-64H320zm0 32H448c17.7 0 32 14.3 32 32V176H432c-8.8 0-16 7.2-16 16v16c0 8.8-7.2 16-16 16s-16-7.2-16-16V192c0-8.8-7.2-16-16-16H320V152h16c26.5 0 48-21.5 48-48s-21.5-48-48-48H320V32zM64 64C28.7 64 0 92.7 0 128V288 448c0 35.3 28.7 64 64 64H224 384c35.3 0 64-28.7 64-64V304c0-17.7-14.3-32-32-32H368c-17.7 0-32 14.3-32 32v16c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-17.7-14.3-32-32-32H240V96c0-17.7-14.3-32-32-32H64zM208 96V272H176V256c0-26.5-21.5-48-48-48s-48 21.5-48 48v16H32V128c0-17.7 14.3-32 32-32H208zM80 304c17.7 0 32-14.3 32-32V256c0-8.8 7.2-16 16-16s16 7.2 16 16v16c0 17.7 14.3 32 32 32h32v32H192c-26.5 0-48 21.5-48 48s21.5 48 48 48h16v48H64c-17.7 0-32-14.3-32-32V304H80zM240 432c0-17.7-14.3-32-32-32H192c-8.8 0-16-7.2-16-16s7.2-16 16-16h16c17.7 0 32-14.3 32-32V304h32v16c0 26.5 21.5 48 48 48s48-21.5 48-48V304h48V448c0 17.7-14.3 32-32 32H240V432z"></path>
+
+                        </svg>
+
+                        <span>Versatilità: 20%</span>
+
+                      </li>
+
+                    </ul>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <p class="lg:mb-10 mb-8 lg:px-4 px-8 text-xs lg:text-lg text-gray-200 text-left ">
+                La soluzione ideale per trasportare al sicuro e al fresco ogni merce: scopri il nostro
+                furgone coibentato! La soluzione ideale per trasportare al sicuro e al fresco ogni merce: scopri il
+                nostro furgone coibentato!</p>
+
+              <p class="px-8 lg:-mt-7 md:-mt-7 mt-7 text-xs lg:text-lg text-gray-200 lg:text-right md:text-right text-center">A partira da € 14.500</p>
+
+              <p class="px-8 text-xs lg:text-lg text-blue-500 lg:text-right md:text-right text-center">Dettagli</p>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="py-20 bg-gray-800">
+
+      <div class="container px-4 mx-auto">
+
+        <h2 class="mb-12 text-center text-xl font-bold font-heading text-white">I migliori lavorano con noi</h2>
+
+        <div class="flex flex-wrap -m-4">
+
+          <div class="w-1/2 md:w-1/5 lg:w-1/5 p-4">
+
+            <a href="https://www.webasto.com/en-int.html">
+
+              <div class="flex w-full h-32 items-center justify-center border-2 border-gray-600 rounded-lg">
+
+                <img class="h-16 px-4 object-contain" src="images/2000px-Webasto-20xx-logo-svg-1024x217-1024x217.png" alt="">
+
+              </div>
+
+            </a>
 
           </div>
 
-          <div class="flex flex-wrap   justify-center">
+          <div class="w-1/2 md:w-1/5 lg:w-1/5 p-4">
 
-            <div class="w-full lg:w-3/5 px-5 lg:ml-40 mb-6 lg:mb-0">
+            <a href="https://europe.thermoking.com/it">
 
-              <div class="relative py-8 px-8 mx-3 lg:px-12 lg:py-12 bg-gray-600 rounded-xl">
+              <div class="flex w-full h-32 items-center justify-center border-2 border-gray-600 rounded-lg">
 
-                <div class="slider-content absolute top-0 -mt-6 right-0 mr-16 w-14 h-14 bg-gray-600" style="clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);"></div>
-
-                <h3 class=" slider-title mb-6 text-3xl text-white font-bold font-heading"></h3>
-
-                <p class=" slider-description text-lg text-gray-300"></p>
+                <img class="h-16 px-4 object-contain" src="images/R-1.png" alt="">
 
               </div>
 
-            </div>
+            </a>
 
-            <div class="w-auto mx-auto lg:w-1/5 px-5">
+          </div>
 
-              <button id="prevBtn" class="inline-flex mr-2 items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
+          <div class="w-1/2 md:w-1/5 lg:w-1/5 p-4">
 
-                <svg class="w-4 h-4" width="7" height="13" viewbox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <a href="https://www.zanotti.com/">
 
-                  <path d="M6.84708 12.1077C7.05097 12.3133 7.05097 12.6436 6.84708 12.8476C6.64319 13.0517 6.31377 13.0525 6.10988 12.8476L0.152917 6.8708C-0.0509739 6.66673 -0.0509738 6.33645 0.152917 6.13087L6.10988 0.154027C6.31377 -0.0500387 6.64319 -0.0500386 6.84708 0.154027C7.05098 0.358848 7.05098 0.689887 6.84708 0.893952L1.4143 6.50121L6.84708 12.1077Z" fill="white"></path>
+              <div class="flex w-full h-32 items-center justify-center border-2 border-gray-600 rounded-lg">
 
-                </svg>
+                <img class="h-16 px-4 object-contain" src="images/R-3.png" alt="">
 
-              </button>
+              </div>
 
-              <button id="nextBtn" class="inline-flex items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
+            </a>
 
-                <svg class="w-4 h-4" width="7" height="13" viewbox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          </div>
 
-                  <path d="M0.152917 0.894235C-0.0509742 0.688658 -0.0509742 0.358375 0.152917 0.15431C0.356808 -0.0497557 0.686228 -0.0505119 0.89012 0.15431L6.84708 6.13116C7.05097 6.33522 7.05097 6.6655 6.84708 6.87108L0.890119 12.8479C0.686227 13.052 0.356807 13.052 0.152916 12.8479C-0.0509753 12.6431 -0.0509753 12.3121 0.152916 12.108L5.5857 6.50074L0.152917 0.894235Z" fill="white"></path>
+          <div class="w-1/2 md:w-1/5 lg:w-1/5 p-4">
 
-                </svg>
+            <a href="https://www.rivacold.com/it/it/">
 
-              </button>
+              <div class="flex w-full h-32 items-center justify-center border-2 border-gray-600 rounded-lg">
 
-            </div>
+                <img class="h-16 px-4 object-contain" src="images/b70c51748c73deb80e0618888369fd7ed9fb26fb460e81fe9170100f3caeb023.png" alt="">
+              
+              </div>
+
+            </a>
+
+          </div>
+
+          <div class="w-full md:w-1/5 lg:w-1/5 p-4">
+
+            <a href="https://www.carrier.com/commercial/it/it/">
+
+              <div class="flex w-full h-32 items-center justify-center border-2 border-gray-600 rounded-lg">
+
+                <img class="h-16 px-4 object-contain" src="images/carrier-logo.png" alt="">
+
+              </div>
+
+            </a>
 
           </div>
 
@@ -267,79 +531,73 @@
 
       </div>
 
-  </section>
+    </section>
 
+    <section class="py-20 2xl:py-40 bg-gray-800 bs-section-dragged">
 
+      <div class="container px-4 mx-auto">
 
+        <div class="flex flex-wrap -mx-4 pb-24 mb-16 border-b border-gray-400">
 
+          <div class="w-full lg:w-2/5 px-4 mb-16 lg:mb-0">
 
-  <!-- <section class="relative bg-gray-800 py-0 2xl:py-0 overflow-hidden">
+            <span class="text-lg text-blue-400 font-bold">Prendi un appuntamento</span>
 
-      <div class="relative max-w-4xl px-0 lg:px-0 mx-auto py-0 justify-between items-center">
+            <h2 class="max-w-sm mt-8 mb-12 text-5xl text-white font-bold font-heading">Ti aspettiamo</h2>
 
-        <div class="max-w-xl mx-auto mb-4 lg:mb-8 text-center">
+            <p class="mb-16 text-gray-300">Hai bisogno di informazioni?</p>
 
-          <span class="block mt-4 text-lg text-blue-400 font-semibold">MC Veicoli Commerciali</span>
+            <div>
+              
+              <a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="contatti.html">Contattaci</a></div>
 
-          <h2 class="mt-4 text-3xl text-white font-bold font-heading">Il Nostro Nuovo</h2>
-
-        </div>
-
-        <div class="relative">
-
-          <div class="hidden lg:block absolute top-0 left-0 -ml-80">
-
-            <img class="-ml-30 w-112 h-96 object-contain" src="images/v3dimage.png" alt="">
-          
           </div>
 
-          <div class="hidden lg:block absolute top-0 right-0 -mr-80">
+          <div class="w-full lg:w-3/5 px-4">
 
-            <img class="-mr-30 w-112 h-96 object-contain" src="images/v3dimage.png" alt="">
-          
-          </div>
+            <div class="flex flex-wrap ">
 
-          <div class="relative max-w-4xl mx-auto">
+              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-16 lg:mb-0">
 
-            <img class="w-full mb-12 mt-4 object-contain" src="images/v3dimage.png" alt="">
+                <ul class="text-lg">
 
-            <div class="flex flex-wrap -mx-5">
+                  <li class="mb-6 text-white text-xl">ORARI</li>
 
-              <div class="w-full lg:w-4/5 px-5 mb-6 lg:mb-0">
+                  <li class="mb-2 text-gray-200">LUN / SAB</li>
 
-                <div class="relative py-8 px-8 mx-3 lg:px-12 lg:py-12 bg-gray-600 rounded-xl">
+                  <li class="mb-2 text-gray-200">9:30 - 12:30 / 15:30 -19:00</li>
 
-                  <div class="absolute top-0 -mt-6 right-0 mr-16 w-14 h-14 bg-gray-600" style="clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);"></div>
+                  <li class="mb-6 text-gray-200">SOLO SU APPUNTAMENTO</li>
 
-                  <h3 class="mb-6 text-3xl text-white font-bold font-heading">Experience design for your products</h3>
+                  <li class="mb-2 text-white text-xl">DOMENICA E FESTIVI</li>
 
-                  <p class="text-lg text-gray-300">The brown fox jumps over the lazy dog.</p>
+                  <li class="mb-2 text-gray-200">CHIUSO</li>
 
-                </div>
+                </ul>
 
               </div>
 
-              <div class="w-auto mx-auto lg:w-1/5 px-5">
+              <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-16 lg:mb-0">
 
-                <button class="inline-flex mr-2 items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
+                <ul class="text-lg">
 
-                  <svg class="w-4 h-4" width="7" height="13" viewbox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <li class="mb-6 text-white text-xl">CONTATTI</li>
 
-                    <path d="M6.84708 12.1077C7.05097 12.3133 7.05097 12.6436 6.84708 12.8476C6.64319 13.0517 6.31377 13.0525 6.10988 12.8476L0.152917 6.8708C-0.0509739 6.66673 -0.0509738 6.33645 0.152917 6.13087L6.10988 0.154027C6.31377 -0.0500387 6.64319 -0.0500386 6.84708 0.154027C7.05098 0.358848 7.05098 0.689887 6.84708 0.893952L1.4143 6.50121L6.84708 12.1077Z" fill="white"></path>
-                  
-                  </svg>
+                  <li class="mb-2 text-white">TELEFONO</li>
 
-                </button>
+                  <li class="mb-6 text-gray-200">+39 0381-681081</li>
 
-                <button class="inline-flex items-center justify-center w-14 h-14 bg-blue-500 hover:bg-blue-600 rounded-full">
+                  <li class="mb-2 text-white">POSTA</li>
 
-                  <svg class="w-4 h-4" width="7" height="13" viewbox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <li class="mb-6 text-gray-200">info@mcveicolicommerciali.it</li>
 
-                    <path d="M0.152917 0.894235C-0.0509742 0.688658 -0.0509742 0.358375 0.152917 0.15431C0.356808 -0.0497557 0.686228 -0.0505119 0.89012 0.15431L6.84708 6.13116C7.05097 6.33522 7.05097 6.6655 6.84708 6.87108L0.890119 12.8479C0.686227 13.052 0.356807 13.052 0.152916 12.8479C-0.0509753 12.6431 -0.0509753 12.3121 0.152916 12.108L5.5857 6.50074L0.152917 0.894235Z" fill="white"></path>
-                  
-                  </svg>
+                  <li class="mb-2 text-white">INDIRIZZO</li>
 
-                </button>
+                  <li class="mb-2 text-gray-200">27029 Vigevano (PV)</li>
+
+                  <li class="mb-6 text-gray-200">Corso Novara 143/M</li>
+
+                </ul>
 
               </div>
 
@@ -349,119 +607,22 @@
 
         </div>
 
-      </div>
+        <div class="md-flex justify-between text-center">
 
-    </section>  -->
+          <p class="text-lg text-gray-200 mb-12 md:mb-0 " contenteditable="true">
+            MC Veicoli Commerciali di Combi Gianmarco - corso Novara 143/M - 27029 Vigevano (PV) - tel: 0381-681081 -
+            cell: 380-3458782</p>
 
-
-
-
-
-<!--  -->
-
-  <section class="py-10 2xl:py-20 bg-gray-800 bs-section-dragged">
-
-    <div class="container px-4 mx-auto">
-
-      <div class="flex flex-wrap -mx-4 pb-24 pt-24 mb-16 border-b border-gray-400 border-t ">
-
-        <div class="w-full lg:w-2/5 px-4 mb-16 lg:mb-0">
-
-          <span class="text-lg text-blue-400 font-bold">MC Veicoli Commerciali</span>
-
-          <h2 class="max-w-sm mt-8 mb-12 text-5xl text-white font-bold font-heading">Grazie per il vostro tempo.</h2>
-
-          <p class="mb-16 text-gray-300">Hai bisogno di informazioni?</p>
-
-          <div>
-
-            <a class="inline-block mb-4 sm:mb-0 sm:mr-4 py-4 px-12 text-white font-bold bg-blue-500 hover:bg-blue-600 rounded-full transition duration-200" href="contatti.html">Contattaci</a>
-
-          </div>
-
-        </div>
-
-        <div class="w-full lg:w-3/5 px-4">
-
-          <div class="flex flex-wrap ">
-
-            <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-16 lg:mb-0">
-
-              <ul class="text-lg">
-
-                <li class="mb-6 text-white text-xl">ORARI</li>
-
-                <li class="mb-2 text-gray-200">LUN / SAB</li>
-
-                <li class="mb-2 text-gray-200">9:30 - 12:30 / 15:30 -19:00</li>
-
-                <li class="mb-6 text-gray-200">SOLO SU APPUNTAMENTO</li>
-
-                <li class="mb-2 text-white text-xl">DOMENICA E FESTIVI</li>
-
-                <li class="mb-2 text-gray-200">CHIUSO</li>
-
-              </ul>
-
-            </div>
-
-            <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-16 lg:mb-0">
-
-              <ul class="text-lg">
-
-                <li class="mb-6 text-white text-xl">CONTATTI</li>
-
-                <li class="mb-2 text-white">TELEFONO</li>
-
-                <li class="mb-6 text-gray-200">+39 0381-681081</li>
-
-                <li class="mb-2 text-white">POSTA</li>
-
-                <li class="mb-6 text-gray-200">info@mcveicolicommerciali.it</li>
-
-                <li class="mb-2 text-white">INDIRIZZO</li>
-
-                <li class="mb-2 text-gray-200">27029 Vigevano (PV)</li>
-
-                <li class="mb-6 text-gray-200">Corso Novara 143/M</li>
-
-              </ul>
-
-            </div>
-
-          </div>
+          <p class="text-lg text-gray-200 mb-12 md:mb-0 ">P.IVA 13217640153 - c.
+            fisc. CMBGMR64S16F205Y</p>
 
         </div>
 
       </div>
 
-      <div class="md-flex justify-between text-center">
-
-        <p class="text-lg text-gray-200 mb-12 md:mb-0">MC Veicoli Commerciali di Combi Gianmarco - corso Novara 143/M - 27029 Vigevano (PV) - tel: 0381-681081 - cell: 331-7635135</p>
-
-        <p class="text-lg text-gray-200 mb-12 md:mb-0">P.IVA 13217640153 - c. fisc. CMBGMR64S16F205Y</p>
-
-        <a class="inline-block mt-6 mr-6" href="#"><img class="h-12" src="zospace-assets/logos/twitter.svg" alt=""></a>
-
-        <a class="inline-block mt-6 mr-6" href="#"><img class="h-12" src="zospace-assets/logos/facebook.svg" alt=""></a>
-
-        <a class="inline-block mt-6 mr-6" href="#"><img class="h-12" src="zospace-assets/logos/instagram.svg" alt=""></a>
-
-      </div>
-
-    </div>
-
-  </section>
-
-<!--  -->
+    </section>
 
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script src="js/carousel/nuovo/effect-carousel.min.js"></script>
-
-  <script src="js/carousel/nuovo/main.js"></script>
 
 </body>
 
